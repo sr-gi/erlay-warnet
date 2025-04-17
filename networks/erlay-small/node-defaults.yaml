@@ -5,7 +5,7 @@ resources: {}
 image:
   repository: bitcoindevproject/bitcoin
   pullPolicy: IfNotPresent
-  tag: '99.0.0-erlay-eae9cdd'
+  tag: '99.0.0-erlay-906d584'
 defaultConfig: 'dns=1
 
   debug=rpc
