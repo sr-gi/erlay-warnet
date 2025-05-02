@@ -8,20 +8,26 @@
 
 `warnet setup`
 
-4. Deploy 8-node erlay image network
+4. Deploy small (8-node) erlay image network
 
 `warnet deploy networks/erlay-small`
 
-5. Open web UI
+The relevant images to use in your deployments are:
+
+- `sr-gi/bitcoin:99.0.0-getnetmsgs` For master + [#29418](https://github.com/bitcoin/bitcoin/pull/29418)
+- `sr-gi/bitcoin:99.0.0-erlay-full-169d` For [#30277](https://github.com/bitcoin/bitcoin/pull/30277)+ [#29418](https://github.com/bitcoin/bitcoin/pull/29418) with T=1
+- `sr-gi/bitcoin:99.0.0-erlay-full-9c7f` [#30277](https://github.com/bitcoin/bitcoin/pull/30277)+ [#29418](https://github.com/bitcoin/bitcoin/pull/29418) with T=4
+
+5. Alternatively, deploy a medium-size (50-node) erlay image network
+
+`warnet deploy networks/erlay-medium`
+
+6. Open web UI
 
 `warnet dashboard`
 
-6. Run scenarios (example)
+7. Run scenarios
 
-- Mine blocks every 30 seconds:
+`warnet run scenarios/check_net_bandwidth.py --debug --tx_count=10`
 
-`warnet run scenarios/miner_std.py --allnodes --interval 30 --mature`
 
-- Send random transactions from all nodes
-
-`warnet run scenarios/tx_flood.py --interval=1 --debug`
