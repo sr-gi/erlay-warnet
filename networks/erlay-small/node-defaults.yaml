@@ -3,17 +3,23 @@ collectLogs: true
 metricsExport: true
 resources: {}
 image:
-  repository: bitcoindevproject/bitcoin
-  pullPolicy: IfNotPresent
-  tag: '99.0.0-erlay-906d584'
+  repository: sr-gi/bitcoin
+  pullPolicy: Never
+  tag: '99.0.0-erlay-full-169d'
 defaultConfig: 'dns=1
 
-  debug=rpc
+  debug=txreconciliation
+
+  debug=net
+
+  noconnect=1
 
   rpcauth=forkobserver:1418183465eecbd407010cf60811c6a0$d4e5f0647a63429c218da1302d7f19fe627302aeb0a71a74de55346a25d8057c
 
   rpcwhitelist=forkobserver:getchaintips,getblockheader,getblockhash,getblock,getnetworkinfo
 
   rpcwhitelistdefault=0
+
+  txreconciliation=1
 
   '
