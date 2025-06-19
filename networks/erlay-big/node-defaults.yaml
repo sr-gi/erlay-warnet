@@ -22,4 +22,6 @@ defaultConfig: 'dns=1
 
   rpcwhitelistdefault=0
 
+  txreconciliation=1
+
   '
