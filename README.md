@@ -8,20 +8,33 @@
 
 `warnet setup`
 
-4. Deploy 8-node erlay image network
+4. Deploy small (8-node) erlay image network
 
 `warnet deploy networks/erlay-small`
 
-5. Open web UI
+The relevant images to use in your deployments are:
+
+- `sr-gi/bitcoin:99.0.0-getnetmsgs` For master + [#29418](https://github.com/bitcoin/bitcoin/pull/29418)
+
+    Use this for NO Erlay, if you want to make sure no Erlay code is running (Erlay can also be disabled in the next image)
+- `sr-gi/bitcoin:99.0.0-erlay-conf-d693` For [#30277](https://github.com/bitcoin/bitcoin/pull/30277) + [#29418](https://github.com/bitcoin/bitcoin/pull/29418)
+
+    You can configure the amount of fanout using `outfanout` and `infanout` in `nodes-default.yaml`
+    ```
+    # Example config to fanout to 1 outbound and 20% of inbounds
+    outfanout = 1
+    infanout = 20
+    ```
+
+5. Alternatively, deploy a medium-size (50-node) erlay image network (or even a large one, but you may want a kubernetes cluster for that)
+
+`warnet deploy networks/erlay-medium`
+
+6. Open web UI
 
 `warnet dashboard`
 
-6. Run scenarios (example)
+7. Run scenarios
 
-- Mine blocks every 30 seconds:
+`warnet run scenarios/check_net_bandwidth.py --debug --tx_count=10 --n=10 --admin`
 
-`warnet run scenarios/miner_std.py --allnodes --interval 30 --mature`
-
-- Send random transactions from all nodes
-
-`warnet run scenarios/tx_flood.py --interval=1 --debug`
