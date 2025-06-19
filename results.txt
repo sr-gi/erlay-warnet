@@ -1,0 +1,82 @@
+This are example results of experiments with two different network sizes. Your results may be slightly different based on the randomness nature.
+
+All experiments where run with `--n=10` to account, so results are averages of 10 runs of the same deployment. Networks where shut down over runs.
+
+############
+MEDIUM NETWORK TX=250
+############
+
+FANOUT ONLY
+
+CheckNetBandwidth message count: {'tx': 12250.0, 'getdata': 1271.9, 'inv': 3584.5, 'addrv2': 155.6, 'ping': 120.1, 'pong': 120.2}
+CheckNetBandwidth bytes per message: {'tx': 3736132.4, 'getdata': 468981.8, 'inv': 3565927.0, 'addrv2': 6714.2, 'ping': 3482.9, 'pong': 3485.8}
+CheckNetBandwidth INV entry count: 96863
+CheckNetBandwidth approx propagation time: 8.210407638549805s
+
+ERLAY T=4
+
+CheckNetBandwidth message count: {'sketch': 771.0, 'reqtxrcncl': 753.4, 'tx': 12250.0, 'getdata': 823.8, 'inv': 2004.7, 'addrv2': 127.5, 'reconcildiff': 745.4, 'reqsketchext': 26.2, 'notfound': 2.7, 'ping': 116.2, 'pong': 116.2}
+CheckNetBandwidth bytes per message: {'sketch': 157801.6, 'reqtxrcncl': 27875.8, 'tx': 3736176.5, 'getdata': 459278.4, 'inv': 2596863.4, 'addrv2': 5500.5, 'reconcildiff': 105767.0, 'reqsketchext': 864.6, 'notfound': 214.2, 'ping': 3369.8, 'pong': 3369.8}
+CheckNetBandwidth INV entry count: 70910
+CheckNetBandwidth approx propagation time: 6.896156239509582s
+
+ERLAY T=2
+
+CheckNetBandwidth message count: {'sketch': 836.4, 'reqtxrcncl': 771.3, 'tx': 12250.0, 'getdata': 814.3, 'inv': 1564.8, 'addrv2': 127.7, 'reconcildiff': 774.9, 'reqsketchext': 56.1, 'notfound': 4.2, 'ping': 124.2, 'pong': 124.2}
+CheckNetBandwidth bytes per message: {'sketch': 209865.2, 'reqtxrcncl': 28538.1, 'tx': 3736161.8, 'getdata': 459289.0, 'inv': 2175716.4, 'addrv2': 5447.9, 'reconcildiff': 108076.7, 'reqsketchext': 1851.3, 'notfound': 466.8, 'ping': 3601.8, 'pong': 3601.8}
+CheckNetBandwidth INV entry count: 59480.3
+CheckNetBandwidth approx propagation time: 6.399798798561096s
+
+ERLAY T=1
+
+CheckNetBandwidth message count: {'sketch': 910.0, 'reqtxrcncl': 853.9, 'tx': 12250.0, 'getdata': 801.7, 'inv': 1286.7, 'addrv2': 153.9, 'reconcildiff': 843.8, 'reqsketchext': 68.3, 'notfound': 7.2, 'ping': 129.6, 'pong': 129.6}
+CheckNetBandwidth bytes per message: {'sketch': 211152.2, 'reqtxrcncl': 31594.3, 'tx': 3736107.9, 'getdata': 459508.6, 'inv': 2272860.6, 'addrv2': 6786.3, 'reconcildiff': 94346.4, 'reqsketchext': 2253.9, 'notfound': 1029.6, 'ping': 3758.4, 'pong': 3758.4}
+CheckNetBandwidth INV entry count: 62348.7
+CheckNetBandwidth approx propagation time: 8.30057179927826s
+
+RECON ONLY
+
+CheckNetBandwidth message count: {'sketch': 1008.5, 'reqtxrcncl': 893.1, 'tx': 12250.0, 'getdata': 722.8, 'inv': 1046.7, 'addrv2': 133.8, 'reqsketchext': 114.4, 'reconcildiff': 895.4, 'notfound': 48.0, 'ping': 96.8, 'pong': 96.8}
+CheckNetBandwidth bytes per message: {'sketch': 237996.0, 'reqtxrcncl': 33044.7, 'tx': 3736107.9, 'getdata': 465300.4, 'inv': 1850614.2, 'addrv2': 5705.1, 'reqsketchext': 3775.2, 'reconcildiff': 70390.6, 'notfound': 9454.8, 'ping': 2807.2, 'pong': 2807.2}
+CheckNetBandwidth INV entry count: 50766.3
+CheckNetBandwidth approx propagation time: 8.638308906555176s
+
+############
+BIG NETWORK TX=800
+############
+
+FANOUT ONLY
+
+CheckNetBandwidth message count: {'tx': 159200.0, 'ping': 1779.6, 'getdata': 10076.1, 'inv': 41271.1, 'addrv2': 894.4, 'pong': 1793.5}
+CheckNetBandwidth bytes per message: {'tx': 48554885.6, 'ping': 51608.4, 'getdata': 5952874.2, 'inv': 46889077.2, 'addrv2': 39286.3, 'pong': 52011.5}
+CheckNetBandwidth INV entry count: 1277253.1
+CheckNetBandwidth approx propagation time: 19.928386068344118s
+
+ERLAY T=4
+
+CheckNetBandwidth message count: {'sketch': 6835.3, 'reqtxrcncl': 6420.5, 'tx': 159200.0, 'ping': 1181.7, 'getdata': 4681.0, 'inv': 12068.6, 'addrv2': 838.0, 'reconcildiff': 6615.2, 'pong': 1181.8, 'reqsketchext': 200.5, 'notfound': 7.9}
+CheckNetBandwidth bytes per message: {'sketch': 1901582.6, 'reqtxrcncl': 237558.5, 'tx': 48554766.2, 'ping': 34269.3, 'getdata': 5837027.8, 'inv': 40637974.8, 'addrv2': 37880.5, 'reconcildiff': 1341256.8, 'pong': 34272.2, 'reqsketchext': 6616.5, 'notfound': 2758.6}
+CheckNetBandwidth INV entry count: 1121456.9
+CheckNetBandwidth approx propagation time: 9.8286563873291s
+
+ERLAY T=2
+
+CheckNetBandwidth message count: {'sketch': 7361.0, 'reqtxrcncl': 7095.5, 'tx': 159200.0, 'ping': 1106.9, 'getdata': 4846.9, 'inv': 12418.8, 'addrv2': 861.7, 'reqsketchext': 216.0, 'reconcildiff': 7106.2, 'pong': 1107.1, 'notfound': 10.4}
+CheckNetBandwidth bytes per message: {'sketch': 2150632.8, 'reqtxrcncl': 262533.5, 'tx': 48554646.8, 'ping': 32100.1, 'getdata': 5841116.4, 'inv': 37853475.2, 'addrv2': 38265.4, 'reqsketchext': 7128.0, 'reconcildiff': 1500649.2, 'pong': 32105.9, 'notfound': 3281.6}
+CheckNetBandwidth INV entry count: 1043895.6
+CheckNetBandwidth approx propagation time: 8.978621983528138s
+
+ERLAY T=1
+
+CheckNetBandwidth message count: {'sketch': 8337.7, 'reqtxrcncl': 8062.6, 'tx': 159200.0, 'ping': 675.8, 'getdata': 5047.0, 'inv': 12814.2, 'addrv2': 809.4, 'reconcildiff': 8126.8, 'pong': 704.4, 'reqsketchext': 210.5, 'notfound': 9.6}
+CheckNetBandwidth bytes per message: {'sketch': 2074209.0, 'reqtxrcncl': 298316.2, 'tx': 48554965.2, 'ping': 19598.2, 'getdata': 5845171.6, 'inv': 40735533.6, 'addrv2': 36130.8, 'reconcildiff': 1459794.4, 'pong': 20427.6, 'reqsketchext': 6946.5, 'notfound': 2914.8}
+CheckNetBandwidth INV entry count: 1123711.2
+CheckNetBandwidth approx propagation time: 7.768516564369202s
+
+RECON ONLY
+
+CheckNetBandwidth message count: {'sketch': 8567.6, 'reqtxrcncl': 7726.6, 'tx': 159200.0, 'ping': 1104.0, 'notfound': 223.6, 'getdata': 3733.8, 'inv': 5867.4, 'addrv2': 822.3, 'reqsketchext': 731.1, 'reconcildiff': 7826.4, 'pong': 1129.2}
+CheckNetBandwidth bytes per message: {'sketch': 2868066.0, 'reqtxrcncl': 285884.2, 'tx': 48554925.4, 'ping': 32016.0, 'notfound': 41239.6, 'getdata': 5849963.8, 'inv': 27729874.4, 'addrv2': 37064.1, 'reqsketchext': 24126.3, 'reconcildiff': 945686.8, 'pong': 32746.8}
+CheckNetBandwidth INV entry count: 766688.3
+CheckNetBandwidth approx propagation time: 11.797040724754334s
+
