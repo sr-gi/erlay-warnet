@@ -95,7 +95,7 @@ AuthServiceProxy._request = auth_proxy_request
 class Commander(BitcoinTestFramework):
     # required by subclasses of BitcoinTestFramework
     def set_test_params(self):
-        pass
+        self.sclient = sclient
 
     def run_test(self):
         pass
