@@ -5,7 +5,7 @@ resources: {}
 image:
   repository: srgi/bitcoin
   pullPolicy: IfNotPresent
-  tag: '99.0.0-erlay-conf-d693'
+  tag: '99.0.0-erlay-recon-time-27b1'
 defaultConfig: 'dns=1
 
   debug=net
@@ -23,5 +23,9 @@ defaultConfig: 'dns=1
   rpcwhitelistdefault=0
 
   txreconciliation=1
+
+  outfanout=0
+
+  infanout=0
 
   '
