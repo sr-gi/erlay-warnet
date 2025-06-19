@@ -1,0 +1,5006 @@
+caddy:
+  enabled: false
+fork_observer:
+  configQueryInterval: 5
+  enabled: false
+nodes:
+- addnode:
+  - tank-0043
+  - tank-0001
+  - tank-0033
+  - tank-0015
+  - tank-0030
+  - tank-0004
+  - tank-0029
+  - tank-0008
+  name: tank-0000
+- addnode:
+  - tank-0042
+  - tank-0005
+  - tank-0002
+  - tank-0031
+  - tank-0011
+  - tank-0004
+  - tank-0039
+  - tank-0033
+  name: tank-0001
+- addnode:
+  - tank-0046
+  - tank-0037
+  - tank-0031
+  - tank-0003
+  - tank-0043
+  - tank-0048
+  - tank-0019
+  - tank-0006
+  name: tank-0002
+- addnode:
+  - tank-0013
+  - tank-0046
+  - tank-0001
+  - tank-0018
+  - tank-0032
+  - tank-0038
+  - tank-0043
+  - tank-0039
+  name: tank-0003
+- addnode:
+  - tank-0043
+  - tank-0034
+  - tank-0005
+  - tank-0019
+  - tank-0032
+  - tank-0035
+  - tank-0046
+  - tank-0009
+  name: tank-0004
+- addnode:
+  - tank-0024
+  - tank-0013
+  - tank-0044
+  - tank-0002
+  - tank-0000
+  - tank-0017
+  - tank-0029
+  - tank-0034
+  name: tank-0005
+- addnode:
+  - tank-0015
+  - tank-0004
+  - tank-0011
+  - tank-0026
+  - tank-0012
+  - tank-0000
+  - tank-0047
+  - tank-0023
+  name: tank-0006
+- addnode:
+  - tank-0034
+  - tank-0026
+  - tank-0016
+  - tank-0036
+  - tank-0023
+  - tank-0003
+  - tank-0048
+  - tank-0044
+  name: tank-0007
+- addnode:
+  - tank-0006
+  - tank-0003
+  - tank-0021
+  - tank-0041
+  - tank-0025
+  - tank-0018
+  - tank-0016
+  - tank-0034
+  name: tank-0008
+- addnode:
+  - tank-0024
+  - tank-0006
+  - tank-0035
+  - tank-0026
+  - tank-0039
+  - tank-0010
+  - tank-0043
+  - tank-0021
+  name: tank-0009
+- addnode:
+  - tank-0042
+  - tank-0035
+  - tank-0006
+  - tank-0044
+  - tank-0039
+  - tank-0030
+  - tank-0047
+  - tank-0023
+  name: tank-0010
+- addnode:
+  - tank-0012
+  - tank-0000
+  - tank-0018
+  - tank-0026
+  - tank-0009
+  - tank-0007
+  - tank-0017
+  - tank-0005
+  name: tank-0011
+- addnode:
+  - tank-0021
+  - tank-0035
+  - tank-0007
+  - tank-0024
+  - tank-0043
+  - tank-0028
+  - tank-0002
+  - tank-0016
+  name: tank-0012
+- addnode:
+  - tank-0046
+  - tank-0027
+  - tank-0004
+  - tank-0042
+  - tank-0023
+  - tank-0010
+  - tank-0026
+  - tank-0019
+  name: tank-0013
+- addnode:
+  - tank-0024
+  - tank-0021
+  - tank-0018
+  - tank-0043
+  - tank-0025
+  - tank-0004
+  - tank-0008
+  - tank-0027
+  name: tank-0014
+- addnode:
+  - tank-0023
+  - tank-0046
+  - tank-0034
+  - tank-0032
+  - tank-0028
+  - tank-0025
+  - tank-0003
+  - tank-0001
+  name: tank-0015
+- addnode:
+  - tank-0003
+  - tank-0033
+  - tank-0004
+  - tank-0036
+  - tank-0025
+  - tank-0038
+  - tank-0009
+  - tank-0042
+  name: tank-0016
+- addnode:
+  - tank-0014
+  - tank-0040
+  - tank-0028
+  - tank-0008
+  - tank-0036
+  - tank-0018
+  - tank-0032
+  - tank-0001
+  name: tank-0017
+- addnode:
+  - tank-0016
+  - tank-0031
+  - tank-0024
+  - tank-0001
+  - tank-0019
+  - tank-0032
+  - tank-0030
+  - tank-0049
+  name: tank-0018
+- addnode:
+  - tank-0034
+  - tank-0039
+  - tank-0046
+  - tank-0026
+  - tank-0014
+  - tank-0025
+  - tank-0023
+  - tank-0040
+  name: tank-0019
+- addnode:
+  - tank-0001
+  - tank-0039
+  - tank-0044
+  - tank-0035
+  - tank-0006
+  - tank-0010
+  - tank-0009
+  - tank-0036
+  name: tank-0020
+- addnode:
+  - tank-0001
+  - tank-0039
+  - tank-0042
+  - tank-0044
+  - tank-0003
+  - tank-0031
+  - tank-0015
+  - tank-0028
+  name: tank-0021
+- addnode:
+  - tank-0027
+  - tank-0013
+  - tank-0010
+  - tank-0007
+  - tank-0016
+  - tank-0028
+  - tank-0021
+  - tank-0008
+  name: tank-0022
+- addnode:
+  - tank-0037
+  - tank-0031
+  - tank-0008
+  - tank-0032
+  - tank-0001
+  - tank-0017
+  - tank-0036
+  - tank-0041
+  name: tank-0023
+- addnode:
+  - tank-0047
+  - tank-0032
+  - tank-0019
+  - tank-0044
+  - tank-0046
+  - tank-0033
+  - tank-0049
+  - tank-0003
+  name: tank-0024
+- addnode:
+  - tank-0036
+  - tank-0042
+  - tank-0049
+  - tank-0000
+  - tank-0040
+  - tank-0027
+  - tank-0046
+  - tank-0017
+  name: tank-0025
+- addnode:
+  - tank-0034
+  - tank-0031
+  - tank-0001
+  - tank-0038
+  - tank-0043
+  - tank-0002
+  - tank-0046
+  - tank-0023
+  name: tank-0026
+- addnode:
+  - tank-0016
+  - tank-0017
+  - tank-0037
+  - tank-0040
+  - tank-0002
+  - tank-0046
+  - tank-0029
+  - tank-0004
+  name: tank-0027
+- addnode:
+  - tank-0000
+  - tank-0046
+  - tank-0003
+  - tank-0024
+  - tank-0002
+  - tank-0029
+  - tank-0030
+  - tank-0019
+  name: tank-0028
+- addnode:
+  - tank-0034
+  - tank-0033
+  - tank-0023
+  - tank-0042
+  - tank-0006
+  - tank-0032
+  - tank-0016
+  - tank-0012
+  name: tank-0029
+- addnode:
+  - tank-0011
+  - tank-0049
+  - tank-0021
+  - tank-0042
+  - tank-0035
+  - tank-0014
+  - tank-0044
+  - tank-0015
+  name: tank-0030
+- addnode:
+  - tank-0011
+  - tank-0013
+  - tank-0035
+  - tank-0009
+  - tank-0049
+  - tank-0004
+  - tank-0030
+  - tank-0016
+  name: tank-0031
+- addnode:
+  - tank-0026
+  - tank-0047
+  - tank-0016
+  - tank-0013
+  - tank-0006
+  - tank-0005
+  - tank-0045
+  - tank-0041
+  name: tank-0032
+- addnode:
+  - tank-0018
+  - tank-0022
+  - tank-0002
+  - tank-0012
+  - tank-0019
+  - tank-0007
+  - tank-0008
+  - tank-0036
+  name: tank-0033
+- addnode:
+  - tank-0040
+  - tank-0033
+  - tank-0047
+  - tank-0014
+  - tank-0006
+  - tank-0028
+  - tank-0010
+  - tank-0003
+  name: tank-0034
+- addnode:
+  - tank-0027
+  - tank-0047
+  - tank-0044
+  - tank-0016
+  - tank-0048
+  - tank-0037
+  - tank-0029
+  - tank-0040
+  name: tank-0035
+- addnode:
+  - tank-0004
+  - tank-0042
+  - tank-0008
+  - tank-0046
+  - tank-0037
+  - tank-0011
+  - tank-0030
+  - tank-0049
+  name: tank-0036
+- addnode:
+  - tank-0017
+  - tank-0038
+  - tank-0042
+  - tank-0014
+  - tank-0005
+  - tank-0001
+  - tank-0026
+  - tank-0039
+  name: tank-0037
+- addnode:
+  - tank-0027
+  - tank-0030
+  - tank-0028
+  - tank-0010
+  - tank-0000
+  - tank-0007
+  - tank-0018
+  - tank-0009
+  name: tank-0038
+- addnode:
+  - tank-0033
+  - tank-0012
+  - tank-0018
+  - tank-0044
+  - tank-0007
+  - tank-0048
+  - tank-0000
+  - tank-0015
+  name: tank-0039
+- addnode:
+  - tank-0010
+  - tank-0014
+  - tank-0039
+  - tank-0049
+  - tank-0045
+  - tank-0037
+  - tank-0031
+  - tank-0020
+  name: tank-0040
+- addnode:
+  - tank-0046
+  - tank-0009
+  - tank-0048
+  - tank-0037
+  - tank-0013
+  - tank-0025
+  - tank-0022
+  - tank-0028
+  name: tank-0041
+- addnode:
+  - tank-0048
+  - tank-0008
+  - tank-0043
+  - tank-0011
+  - tank-0039
+  - tank-0032
+  - tank-0038
+  - tank-0049
+  name: tank-0042
+- addnode:
+  - tank-0019
+  - tank-0021
+  - tank-0023
+  - tank-0006
+  - tank-0046
+  - tank-0040
+  - tank-0001
+  - tank-0024
+  name: tank-0043
+- addnode:
+  - tank-0000
+  - tank-0027
+  - tank-0028
+  - tank-0038
+  - tank-0023
+  - tank-0011
+  - tank-0040
+  - tank-0018
+  name: tank-0044
+- addnode:
+  - tank-0020
+  - tank-0041
+  - tank-0042
+  - tank-0003
+  - tank-0046
+  - tank-0043
+  - tank-0021
+  - tank-0006
+  name: tank-0045
+- addnode:
+  - tank-0014
+  - tank-0034
+  - tank-0016
+  - tank-0008
+  - tank-0037
+  - tank-0000
+  - tank-0012
+  - tank-0005
+  name: tank-0046
+- addnode:
+  - tank-0044
+  - tank-0002
+  - tank-0045
+  - tank-0016
+  - tank-0009
+  - tank-0012
+  - tank-0022
+  - tank-0020
+  name: tank-0047
+- addnode:
+  - tank-0022
+  - tank-0011
+  - tank-0016
+  - tank-0005
+  - tank-0019
+  - tank-0014
+  - tank-0028
+  - tank-0034
+  name: tank-0048
+- addnode:
+  - tank-0035
+  - tank-0015
+  - tank-0047
+  - tank-0001
+  - tank-0038
+  - tank-0016
+  - tank-0003
+  - tank-0029
+  name: tank-0049
+- addnode:
+  - tank-0047
+  - tank-0035
+  - tank-0024
+  - tank-0045
+  - tank-0044
+  - tank-0010
+  - tank-0021
+  - tank-0038
+  name: tank-0050
+- addnode:
+  - tank-0047
+  - tank-0045
+  - tank-0046
+  - tank-0035
+  - tank-0032
+  - tank-0030
+  - tank-0005
+  - tank-0044
+  name: tank-0051
+- addnode:
+  - tank-0044
+  - tank-0007
+  - tank-0022
+  - tank-0031
+  - tank-0024
+  - tank-0017
+  - tank-0009
+  - tank-0030
+  name: tank-0052
+- addnode:
+  - tank-0034
+  - tank-0018
+  - tank-0023
+  - tank-0014
+  - tank-0001
+  - tank-0012
+  - tank-0046
+  - tank-0019
+  name: tank-0053
+- addnode:
+  - tank-0015
+  - tank-0034
+  - tank-0025
+  - tank-0005
+  - tank-0021
+  - tank-0010
+  - tank-0046
+  - tank-0035
+  name: tank-0054
+- addnode:
+  - tank-0029
+  - tank-0018
+  - tank-0044
+  - tank-0031
+  - tank-0014
+  - tank-0022
+  - tank-0013
+  - tank-0003
+  name: tank-0055
+- addnode:
+  - tank-0005
+  - tank-0048
+  - tank-0027
+  - tank-0012
+  - tank-0035
+  - tank-0044
+  - tank-0026
+  - tank-0031
+  name: tank-0056
+- addnode:
+  - tank-0037
+  - tank-0038
+  - tank-0001
+  - tank-0014
+  - tank-0026
+  - tank-0018
+  - tank-0000
+  - tank-0006
+  name: tank-0057
+- addnode:
+  - tank-0032
+  - tank-0003
+  - tank-0033
+  - tank-0000
+  - tank-0007
+  - tank-0044
+  - tank-0004
+  - tank-0035
+  name: tank-0058
+- addnode:
+  - tank-0015
+  - tank-0019
+  - tank-0023
+  - tank-0027
+  - tank-0048
+  - tank-0043
+  - tank-0047
+  - tank-0049
+  name: tank-0059
+- addnode:
+  - tank-0022
+  - tank-0026
+  - tank-0035
+  - tank-0016
+  - tank-0013
+  - tank-0009
+  - tank-0045
+  - tank-0040
+  name: tank-0060
+- addnode:
+  - tank-0014
+  - tank-0015
+  - tank-0042
+  - tank-0013
+  - tank-0012
+  - tank-0007
+  - tank-0000
+  - tank-0005
+  name: tank-0061
+- addnode:
+  - tank-0036
+  - tank-0038
+  - tank-0039
+  - tank-0002
+  - tank-0000
+  - tank-0005
+  - tank-0041
+  - tank-0047
+  name: tank-0062
+- addnode:
+  - tank-0047
+  - tank-0026
+  - tank-0002
+  - tank-0010
+  - tank-0045
+  - tank-0032
+  - tank-0041
+  - tank-0038
+  name: tank-0063
+- addnode:
+  - tank-0048
+  - tank-0042
+  - tank-0003
+  - tank-0014
+  - tank-0006
+  - tank-0037
+  - tank-0017
+  - tank-0036
+  name: tank-0064
+- addnode:
+  - tank-0000
+  - tank-0027
+  - tank-0019
+  - tank-0042
+  - tank-0022
+  - tank-0044
+  - tank-0033
+  - tank-0016
+  name: tank-0065
+- addnode:
+  - tank-0035
+  - tank-0024
+  - tank-0031
+  - tank-0045
+  - tank-0017
+  - tank-0029
+  - tank-0010
+  - tank-0030
+  name: tank-0066
+- addnode:
+  - tank-0043
+  - tank-0030
+  - tank-0046
+  - tank-0016
+  - tank-0028
+  - tank-0001
+  - tank-0019
+  - tank-0018
+  name: tank-0067
+- addnode:
+  - tank-0033
+  - tank-0021
+  - tank-0015
+  - tank-0035
+  - tank-0010
+  - tank-0019
+  - tank-0037
+  - tank-0041
+  name: tank-0068
+- addnode:
+  - tank-0045
+  - tank-0017
+  - tank-0043
+  - tank-0020
+  - tank-0006
+  - tank-0022
+  - tank-0041
+  - tank-0015
+  name: tank-0069
+- addnode:
+  - tank-0030
+  - tank-0033
+  - tank-0045
+  - tank-0015
+  - tank-0010
+  - tank-0034
+  - tank-0011
+  - tank-0007
+  name: tank-0070
+- addnode:
+  - tank-0044
+  - tank-0028
+  - tank-0021
+  - tank-0015
+  - tank-0016
+  - tank-0025
+  - tank-0022
+  - tank-0035
+  name: tank-0071
+- addnode:
+  - tank-0004
+  - tank-0013
+  - tank-0030
+  - tank-0022
+  - tank-0019
+  - tank-0029
+  - tank-0031
+  - tank-0010
+  name: tank-0072
+- addnode:
+  - tank-0014
+  - tank-0049
+  - tank-0027
+  - tank-0032
+  - tank-0008
+  - tank-0010
+  - tank-0025
+  - tank-0002
+  name: tank-0073
+- addnode:
+  - tank-0034
+  - tank-0008
+  - tank-0040
+  - tank-0003
+  - tank-0024
+  - tank-0029
+  - tank-0042
+  - tank-0012
+  name: tank-0074
+- addnode:
+  - tank-0046
+  - tank-0021
+  - tank-0006
+  - tank-0028
+  - tank-0042
+  - tank-0008
+  - tank-0005
+  - tank-0020
+  name: tank-0075
+- addnode:
+  - tank-0013
+  - tank-0044
+  - tank-0009
+  - tank-0038
+  - tank-0043
+  - tank-0002
+  - tank-0001
+  - tank-0005
+  name: tank-0076
+- addnode:
+  - tank-0038
+  - tank-0002
+  - tank-0025
+  - tank-0033
+  - tank-0018
+  - tank-0044
+  - tank-0026
+  - tank-0016
+  name: tank-0077
+- addnode:
+  - tank-0033
+  - tank-0045
+  - tank-0001
+  - tank-0038
+  - tank-0000
+  - tank-0030
+  - tank-0002
+  - tank-0022
+  name: tank-0078
+- addnode:
+  - tank-0038
+  - tank-0036
+  - tank-0034
+  - tank-0022
+  - tank-0047
+  - tank-0012
+  - tank-0031
+  - tank-0009
+  name: tank-0079
+- addnode:
+  - tank-0041
+  - tank-0005
+  - tank-0027
+  - tank-0001
+  - tank-0022
+  - tank-0030
+  - tank-0047
+  - tank-0036
+  name: tank-0080
+- addnode:
+  - tank-0006
+  - tank-0020
+  - tank-0030
+  - tank-0036
+  - tank-0031
+  - tank-0049
+  - tank-0019
+  - tank-0039
+  name: tank-0081
+- addnode:
+  - tank-0019
+  - tank-0049
+  - tank-0014
+  - tank-0041
+  - tank-0009
+  - tank-0006
+  - tank-0004
+  - tank-0043
+  name: tank-0082
+- addnode:
+  - tank-0045
+  - tank-0010
+  - tank-0028
+  - tank-0025
+  - tank-0016
+  - tank-0019
+  - tank-0007
+  - tank-0023
+  name: tank-0083
+- addnode:
+  - tank-0015
+  - tank-0029
+  - tank-0041
+  - tank-0008
+  - tank-0006
+  - tank-0022
+  - tank-0027
+  - tank-0002
+  name: tank-0084
+- addnode:
+  - tank-0007
+  - tank-0008
+  - tank-0013
+  - tank-0006
+  - tank-0046
+  - tank-0026
+  - tank-0018
+  - tank-0036
+  name: tank-0085
+- addnode:
+  - tank-0040
+  - tank-0007
+  - tank-0041
+  - tank-0049
+  - tank-0036
+  - tank-0009
+  - tank-0022
+  - tank-0018
+  name: tank-0086
+- addnode:
+  - tank-0010
+  - tank-0008
+  - tank-0033
+  - tank-0036
+  - tank-0019
+  - tank-0009
+  - tank-0018
+  - tank-0000
+  name: tank-0087
+- addnode:
+  - tank-0025
+  - tank-0010
+  - tank-0024
+  - tank-0041
+  - tank-0034
+  - tank-0049
+  - tank-0007
+  - tank-0045
+  name: tank-0088
+- addnode:
+  - tank-0012
+  - tank-0017
+  - tank-0009
+  - tank-0030
+  - tank-0027
+  - tank-0008
+  - tank-0004
+  - tank-0018
+  name: tank-0089
+- addnode:
+  - tank-0029
+  - tank-0038
+  - tank-0043
+  - tank-0011
+  - tank-0000
+  - tank-0024
+  - tank-0007
+  - tank-0022
+  name: tank-0090
+- addnode:
+  - tank-0013
+  - tank-0001
+  - tank-0014
+  - tank-0021
+  - tank-0018
+  - tank-0036
+  - tank-0038
+  - tank-0029
+  name: tank-0091
+- addnode:
+  - tank-0036
+  - tank-0021
+  - tank-0016
+  - tank-0022
+  - tank-0045
+  - tank-0038
+  - tank-0031
+  - tank-0006
+  name: tank-0092
+- addnode:
+  - tank-0016
+  - tank-0030
+  - tank-0037
+  - tank-0020
+  - tank-0004
+  - tank-0026
+  - tank-0039
+  - tank-0044
+  name: tank-0093
+- addnode:
+  - tank-0018
+  - tank-0029
+  - tank-0041
+  - tank-0036
+  - tank-0039
+  - tank-0030
+  - tank-0046
+  - tank-0032
+  name: tank-0094
+- addnode:
+  - tank-0033
+  - tank-0009
+  - tank-0003
+  - tank-0001
+  - tank-0037
+  - tank-0015
+  - tank-0017
+  - tank-0048
+  name: tank-0095
+- addnode:
+  - tank-0020
+  - tank-0017
+  - tank-0026
+  - tank-0029
+  - tank-0038
+  - tank-0006
+  - tank-0028
+  - tank-0004
+  name: tank-0096
+- addnode:
+  - tank-0021
+  - tank-0009
+  - tank-0041
+  - tank-0015
+  - tank-0002
+  - tank-0038
+  - tank-0040
+  - tank-0044
+  name: tank-0097
+- addnode:
+  - tank-0044
+  - tank-0035
+  - tank-0001
+  - tank-0034
+  - tank-0025
+  - tank-0007
+  - tank-0003
+  - tank-0047
+  name: tank-0098
+- addnode:
+  - tank-0002
+  - tank-0006
+  - tank-0049
+  - tank-0016
+  - tank-0017
+  - tank-0012
+  - tank-0005
+  - tank-0000
+  name: tank-0099
+- addnode:
+  - tank-0024
+  - tank-0030
+  - tank-0036
+  - tank-0012
+  - tank-0044
+  - tank-0031
+  - tank-0000
+  - tank-0008
+  name: tank-0100
+- addnode:
+  - tank-0043
+  - tank-0046
+  - tank-0000
+  - tank-0047
+  - tank-0041
+  - tank-0005
+  - tank-0033
+  - tank-0024
+  name: tank-0101
+- addnode:
+  - tank-0047
+  - tank-0037
+  - tank-0018
+  - tank-0036
+  - tank-0005
+  - tank-0035
+  - tank-0007
+  - tank-0044
+  name: tank-0102
+- addnode:
+  - tank-0011
+  - tank-0014
+  - tank-0020
+  - tank-0025
+  - tank-0016
+  - tank-0006
+  - tank-0036
+  - tank-0017
+  name: tank-0103
+- addnode:
+  - tank-0012
+  - tank-0019
+  - tank-0043
+  - tank-0049
+  - tank-0000
+  - tank-0035
+  - tank-0023
+  - tank-0011
+  name: tank-0104
+- addnode:
+  - tank-0001
+  - tank-0033
+  - tank-0046
+  - tank-0030
+  - tank-0013
+  - tank-0002
+  - tank-0034
+  - tank-0031
+  name: tank-0105
+- addnode:
+  - tank-0039
+  - tank-0040
+  - tank-0019
+  - tank-0021
+  - tank-0022
+  - tank-0013
+  - tank-0012
+  - tank-0020
+  name: tank-0106
+- addnode:
+  - tank-0048
+  - tank-0029
+  - tank-0021
+  - tank-0002
+  - tank-0016
+  - tank-0039
+  - tank-0036
+  - tank-0037
+  name: tank-0107
+- addnode:
+  - tank-0005
+  - tank-0028
+  - tank-0049
+  - tank-0015
+  - tank-0025
+  - tank-0012
+  - tank-0043
+  - tank-0035
+  name: tank-0108
+- addnode:
+  - tank-0014
+  - tank-0021
+  - tank-0047
+  - tank-0018
+  - tank-0000
+  - tank-0007
+  - tank-0036
+  - tank-0017
+  name: tank-0109
+- addnode:
+  - tank-0038
+  - tank-0010
+  - tank-0025
+  - tank-0006
+  - tank-0045
+  - tank-0027
+  - tank-0004
+  - tank-0014
+  name: tank-0110
+- addnode:
+  - tank-0022
+  - tank-0040
+  - tank-0041
+  - tank-0047
+  - tank-0007
+  - tank-0002
+  - tank-0025
+  - tank-0039
+  name: tank-0111
+- addnode:
+  - tank-0003
+  - tank-0033
+  - tank-0014
+  - tank-0028
+  - tank-0029
+  - tank-0045
+  - tank-0042
+  - tank-0018
+  name: tank-0112
+- addnode:
+  - tank-0045
+  - tank-0023
+  - tank-0025
+  - tank-0001
+  - tank-0033
+  - tank-0020
+  - tank-0029
+  - tank-0027
+  name: tank-0113
+- addnode:
+  - tank-0012
+  - tank-0017
+  - tank-0028
+  - tank-0014
+  - tank-0039
+  - tank-0015
+  - tank-0045
+  - tank-0001
+  name: tank-0114
+- addnode:
+  - tank-0039
+  - tank-0032
+  - tank-0017
+  - tank-0021
+  - tank-0029
+  - tank-0015
+  - tank-0005
+  - tank-0027
+  name: tank-0115
+- addnode:
+  - tank-0022
+  - tank-0042
+  - tank-0025
+  - tank-0020
+  - tank-0018
+  - tank-0007
+  - tank-0036
+  - tank-0046
+  name: tank-0116
+- addnode:
+  - tank-0011
+  - tank-0014
+  - tank-0012
+  - tank-0007
+  - tank-0030
+  - tank-0019
+  - tank-0028
+  - tank-0022
+  name: tank-0117
+- addnode:
+  - tank-0000
+  - tank-0033
+  - tank-0007
+  - tank-0005
+  - tank-0025
+  - tank-0037
+  - tank-0030
+  - tank-0020
+  name: tank-0118
+- addnode:
+  - tank-0037
+  - tank-0028
+  - tank-0047
+  - tank-0017
+  - tank-0042
+  - tank-0048
+  - tank-0031
+  - tank-0046
+  name: tank-0119
+- addnode:
+  - tank-0015
+  - tank-0039
+  - tank-0023
+  - tank-0035
+  - tank-0038
+  - tank-0009
+  - tank-0018
+  - tank-0034
+  name: tank-0120
+- addnode:
+  - tank-0027
+  - tank-0034
+  - tank-0002
+  - tank-0011
+  - tank-0007
+  - tank-0018
+  - tank-0038
+  - tank-0021
+  name: tank-0121
+- addnode:
+  - tank-0026
+  - tank-0020
+  - tank-0043
+  - tank-0002
+  - tank-0044
+  - tank-0033
+  - tank-0021
+  - tank-0025
+  name: tank-0122
+- addnode:
+  - tank-0004
+  - tank-0008
+  - tank-0042
+  - tank-0030
+  - tank-0014
+  - tank-0045
+  - tank-0038
+  - tank-0013
+  name: tank-0123
+- addnode:
+  - tank-0040
+  - tank-0012
+  - tank-0044
+  - tank-0015
+  - tank-0035
+  - tank-0013
+  - tank-0014
+  - tank-0038
+  name: tank-0124
+- addnode:
+  - tank-0014
+  - tank-0038
+  - tank-0031
+  - tank-0043
+  - tank-0049
+  - tank-0019
+  - tank-0027
+  - tank-0017
+  name: tank-0125
+- addnode:
+  - tank-0018
+  - tank-0014
+  - tank-0020
+  - tank-0046
+  - tank-0035
+  - tank-0011
+  - tank-0010
+  - tank-0004
+  name: tank-0126
+- addnode:
+  - tank-0011
+  - tank-0023
+  - tank-0036
+  - tank-0022
+  - tank-0025
+  - tank-0004
+  - tank-0006
+  - tank-0032
+  name: tank-0127
+- addnode:
+  - tank-0041
+  - tank-0027
+  - tank-0047
+  - tank-0046
+  - tank-0003
+  - tank-0006
+  - tank-0013
+  - tank-0012
+  name: tank-0128
+- addnode:
+  - tank-0049
+  - tank-0002
+  - tank-0042
+  - tank-0021
+  - tank-0044
+  - tank-0013
+  - tank-0017
+  - tank-0000
+  name: tank-0129
+- addnode:
+  - tank-0046
+  - tank-0036
+  - tank-0049
+  - tank-0038
+  - tank-0020
+  - tank-0025
+  - tank-0031
+  - tank-0014
+  name: tank-0130
+- addnode:
+  - tank-0046
+  - tank-0001
+  - tank-0030
+  - tank-0017
+  - tank-0027
+  - tank-0007
+  - tank-0023
+  - tank-0010
+  name: tank-0131
+- addnode:
+  - tank-0018
+  - tank-0033
+  - tank-0003
+  - tank-0043
+  - tank-0021
+  - tank-0009
+  - tank-0001
+  - tank-0032
+  name: tank-0132
+- addnode:
+  - tank-0046
+  - tank-0014
+  - tank-0017
+  - tank-0035
+  - tank-0043
+  - tank-0003
+  - tank-0008
+  - tank-0022
+  name: tank-0133
+- addnode:
+  - tank-0037
+  - tank-0023
+  - tank-0025
+  - tank-0010
+  - tank-0043
+  - tank-0015
+  - tank-0030
+  - tank-0044
+  name: tank-0134
+- addnode:
+  - tank-0043
+  - tank-0023
+  - tank-0029
+  - tank-0019
+  - tank-0026
+  - tank-0046
+  - tank-0000
+  - tank-0018
+  name: tank-0135
+- addnode:
+  - tank-0023
+  - tank-0027
+  - tank-0049
+  - tank-0029
+  - tank-0005
+  - tank-0019
+  - tank-0013
+  - tank-0021
+  name: tank-0136
+- addnode:
+  - tank-0039
+  - tank-0005
+  - tank-0022
+  - tank-0019
+  - tank-0046
+  - tank-0028
+  - tank-0035
+  - tank-0047
+  name: tank-0137
+- addnode:
+  - tank-0026
+  - tank-0018
+  - tank-0024
+  - tank-0016
+  - tank-0011
+  - tank-0046
+  - tank-0014
+  - tank-0035
+  name: tank-0138
+- addnode:
+  - tank-0022
+  - tank-0028
+  - tank-0025
+  - tank-0014
+  - tank-0003
+  - tank-0047
+  - tank-0044
+  - tank-0018
+  name: tank-0139
+- addnode:
+  - tank-0046
+  - tank-0016
+  - tank-0041
+  - tank-0003
+  - tank-0045
+  - tank-0047
+  - tank-0044
+  - tank-0021
+  name: tank-0140
+- addnode:
+  - tank-0012
+  - tank-0019
+  - tank-0033
+  - tank-0044
+  - tank-0045
+  - tank-0031
+  - tank-0035
+  - tank-0017
+  name: tank-0141
+- addnode:
+  - tank-0048
+  - tank-0042
+  - tank-0018
+  - tank-0040
+  - tank-0005
+  - tank-0017
+  - tank-0034
+  - tank-0013
+  name: tank-0142
+- addnode:
+  - tank-0026
+  - tank-0012
+  - tank-0008
+  - tank-0048
+  - tank-0025
+  - tank-0034
+  - tank-0035
+  - tank-0009
+  name: tank-0143
+- addnode:
+  - tank-0007
+  - tank-0042
+  - tank-0022
+  - tank-0010
+  - tank-0026
+  - tank-0035
+  - tank-0041
+  - tank-0008
+  name: tank-0144
+- addnode:
+  - tank-0043
+  - tank-0022
+  - tank-0037
+  - tank-0002
+  - tank-0014
+  - tank-0008
+  - tank-0031
+  - tank-0024
+  name: tank-0145
+- addnode:
+  - tank-0038
+  - tank-0047
+  - tank-0007
+  - tank-0048
+  - tank-0003
+  - tank-0000
+  - tank-0033
+  - tank-0004
+  name: tank-0146
+- addnode:
+  - tank-0001
+  - tank-0042
+  - tank-0015
+  - tank-0029
+  - tank-0010
+  - tank-0033
+  - tank-0048
+  - tank-0039
+  name: tank-0147
+- addnode:
+  - tank-0023
+  - tank-0003
+  - tank-0044
+  - tank-0011
+  - tank-0048
+  - tank-0033
+  - tank-0028
+  - tank-0016
+  name: tank-0148
+- addnode:
+  - tank-0010
+  - tank-0009
+  - tank-0033
+  - tank-0037
+  - tank-0025
+  - tank-0026
+  - tank-0001
+  - tank-0003
+  name: tank-0149
+- addnode:
+  - tank-0008
+  - tank-0006
+  - tank-0042
+  - tank-0003
+  - tank-0004
+  - tank-0012
+  - tank-0010
+  - tank-0020
+  name: tank-0150
+- addnode:
+  - tank-0030
+  - tank-0018
+  - tank-0014
+  - tank-0004
+  - tank-0000
+  - tank-0044
+  - tank-0036
+  - tank-0041
+  name: tank-0151
+- addnode:
+  - tank-0042
+  - tank-0025
+  - tank-0043
+  - tank-0000
+  - tank-0015
+  - tank-0047
+  - tank-0013
+  - tank-0028
+  name: tank-0152
+- addnode:
+  - tank-0013
+  - tank-0035
+  - tank-0014
+  - tank-0042
+  - tank-0047
+  - tank-0004
+  - tank-0030
+  - tank-0048
+  name: tank-0153
+- addnode:
+  - tank-0031
+  - tank-0049
+  - tank-0027
+  - tank-0003
+  - tank-0040
+  - tank-0024
+  - tank-0029
+  - tank-0046
+  name: tank-0154
+- addnode:
+  - tank-0044
+  - tank-0002
+  - tank-0000
+  - tank-0010
+  - tank-0038
+  - tank-0047
+  - tank-0019
+  - tank-0046
+  name: tank-0155
+- addnode:
+  - tank-0021
+  - tank-0011
+  - tank-0012
+  - tank-0028
+  - tank-0045
+  - tank-0006
+  - tank-0023
+  - tank-0016
+  name: tank-0156
+- addnode:
+  - tank-0013
+  - tank-0000
+  - tank-0029
+  - tank-0006
+  - tank-0003
+  - tank-0022
+  - tank-0020
+  - tank-0033
+  name: tank-0157
+- addnode:
+  - tank-0044
+  - tank-0025
+  - tank-0028
+  - tank-0043
+  - tank-0016
+  - tank-0036
+  - tank-0014
+  - tank-0018
+  name: tank-0158
+- addnode:
+  - tank-0049
+  - tank-0040
+  - tank-0016
+  - tank-0019
+  - tank-0030
+  - tank-0011
+  - tank-0032
+  - tank-0013
+  name: tank-0159
+- addnode:
+  - tank-0014
+  - tank-0046
+  - tank-0035
+  - tank-0033
+  - tank-0041
+  - tank-0022
+  - tank-0038
+  - tank-0001
+  name: tank-0160
+- addnode:
+  - tank-0001
+  - tank-0003
+  - tank-0040
+  - tank-0024
+  - tank-0004
+  - tank-0006
+  - tank-0036
+  - tank-0019
+  name: tank-0161
+- addnode:
+  - tank-0035
+  - tank-0042
+  - tank-0047
+  - tank-0006
+  - tank-0012
+  - tank-0007
+  - tank-0001
+  - tank-0044
+  name: tank-0162
+- addnode:
+  - tank-0001
+  - tank-0033
+  - tank-0012
+  - tank-0009
+  - tank-0022
+  - tank-0049
+  - tank-0005
+  - tank-0008
+  name: tank-0163
+- addnode:
+  - tank-0035
+  - tank-0013
+  - tank-0016
+  - tank-0010
+  - tank-0029
+  - tank-0004
+  - tank-0023
+  - tank-0019
+  name: tank-0164
+- addnode:
+  - tank-0019
+  - tank-0007
+  - tank-0008
+  - tank-0006
+  - tank-0013
+  - tank-0033
+  - tank-0023
+  - tank-0038
+  name: tank-0165
+- addnode:
+  - tank-0010
+  - tank-0036
+  - tank-0029
+  - tank-0014
+  - tank-0031
+  - tank-0038
+  - tank-0004
+  - tank-0045
+  name: tank-0166
+- addnode:
+  - tank-0004
+  - tank-0002
+  - tank-0015
+  - tank-0007
+  - tank-0019
+  - tank-0049
+  - tank-0029
+  - tank-0037
+  name: tank-0167
+- addnode:
+  - tank-0034
+  - tank-0005
+  - tank-0045
+  - tank-0044
+  - tank-0048
+  - tank-0027
+  - tank-0010
+  - tank-0025
+  name: tank-0168
+- addnode:
+  - tank-0003
+  - tank-0023
+  - tank-0049
+  - tank-0012
+  - tank-0027
+  - tank-0013
+  - tank-0020
+  - tank-0015
+  name: tank-0169
+- addnode:
+  - tank-0027
+  - tank-0005
+  - tank-0039
+  - tank-0045
+  - tank-0032
+  - tank-0037
+  - tank-0018
+  - tank-0021
+  name: tank-0170
+- addnode:
+  - tank-0006
+  - tank-0024
+  - tank-0048
+  - tank-0009
+  - tank-0032
+  - tank-0020
+  - tank-0000
+  - tank-0018
+  name: tank-0171
+- addnode:
+  - tank-0040
+  - tank-0017
+  - tank-0000
+  - tank-0042
+  - tank-0039
+  - tank-0015
+  - tank-0023
+  - tank-0008
+  name: tank-0172
+- addnode:
+  - tank-0042
+  - tank-0039
+  - tank-0008
+  - tank-0004
+  - tank-0041
+  - tank-0045
+  - tank-0047
+  - tank-0048
+  name: tank-0173
+- addnode:
+  - tank-0033
+  - tank-0018
+  - tank-0006
+  - tank-0014
+  - tank-0037
+  - tank-0024
+  - tank-0030
+  - tank-0002
+  name: tank-0174
+- addnode:
+  - tank-0006
+  - tank-0013
+  - tank-0040
+  - tank-0022
+  - tank-0041
+  - tank-0002
+  - tank-0017
+  - tank-0027
+  name: tank-0175
+- addnode:
+  - tank-0012
+  - tank-0042
+  - tank-0035
+  - tank-0013
+  - tank-0033
+  - tank-0029
+  - tank-0019
+  - tank-0048
+  name: tank-0176
+- addnode:
+  - tank-0047
+  - tank-0020
+  - tank-0031
+  - tank-0035
+  - tank-0000
+  - tank-0005
+  - tank-0046
+  - tank-0007
+  name: tank-0177
+- addnode:
+  - tank-0041
+  - tank-0036
+  - tank-0010
+  - tank-0017
+  - tank-0013
+  - tank-0018
+  - tank-0008
+  - tank-0002
+  name: tank-0178
+- addnode:
+  - tank-0007
+  - tank-0034
+  - tank-0046
+  - tank-0017
+  - tank-0035
+  - tank-0004
+  - tank-0001
+  - tank-0049
+  name: tank-0179
+- addnode:
+  - tank-0007
+  - tank-0021
+  - tank-0041
+  - tank-0017
+  - tank-0023
+  - tank-0003
+  - tank-0036
+  - tank-0024
+  name: tank-0180
+- addnode:
+  - tank-0042
+  - tank-0037
+  - tank-0032
+  - tank-0012
+  - tank-0035
+  - tank-0046
+  - tank-0041
+  - tank-0021
+  name: tank-0181
+- addnode:
+  - tank-0024
+  - tank-0002
+  - tank-0003
+  - tank-0006
+  - tank-0047
+  - tank-0021
+  - tank-0042
+  - tank-0038
+  name: tank-0182
+- addnode:
+  - tank-0034
+  - tank-0043
+  - tank-0013
+  - tank-0029
+  - tank-0002
+  - tank-0047
+  - tank-0031
+  - tank-0032
+  name: tank-0183
+- addnode:
+  - tank-0047
+  - tank-0038
+  - tank-0041
+  - tank-0024
+  - tank-0017
+  - tank-0015
+  - tank-0044
+  - tank-0028
+  name: tank-0184
+- addnode:
+  - tank-0023
+  - tank-0038
+  - tank-0001
+  - tank-0005
+  - tank-0007
+  - tank-0042
+  - tank-0008
+  - tank-0039
+  name: tank-0185
+- addnode:
+  - tank-0049
+  - tank-0006
+  - tank-0048
+  - tank-0018
+  - tank-0015
+  - tank-0047
+  - tank-0035
+  - tank-0041
+  name: tank-0186
+- addnode:
+  - tank-0030
+  - tank-0017
+  - tank-0048
+  - tank-0007
+  - tank-0043
+  - tank-0006
+  - tank-0013
+  - tank-0034
+  name: tank-0187
+- addnode:
+  - tank-0018
+  - tank-0038
+  - tank-0000
+  - tank-0031
+  - tank-0007
+  - tank-0002
+  - tank-0027
+  - tank-0015
+  name: tank-0188
+- addnode:
+  - tank-0007
+  - tank-0003
+  - tank-0013
+  - tank-0049
+  - tank-0008
+  - tank-0020
+  - tank-0021
+  - tank-0039
+  name: tank-0189
+- addnode:
+  - tank-0044
+  - tank-0019
+  - tank-0007
+  - tank-0030
+  - tank-0045
+  - tank-0011
+  - tank-0022
+  - tank-0013
+  name: tank-0190
+- addnode:
+  - tank-0002
+  - tank-0022
+  - tank-0033
+  - tank-0011
+  - tank-0049
+  - tank-0004
+  - tank-0020
+  - tank-0015
+  name: tank-0191
+- addnode:
+  - tank-0023
+  - tank-0011
+  - tank-0043
+  - tank-0036
+  - tank-0022
+  - tank-0021
+  - tank-0012
+  - tank-0045
+  name: tank-0192
+- addnode:
+  - tank-0032
+  - tank-0028
+  - tank-0020
+  - tank-0019
+  - tank-0026
+  - tank-0045
+  - tank-0021
+  - tank-0037
+  name: tank-0193
+- addnode:
+  - tank-0042
+  - tank-0007
+  - tank-0013
+  - tank-0037
+  - tank-0016
+  - tank-0048
+  - tank-0025
+  - tank-0015
+  name: tank-0194
+- addnode:
+  - tank-0035
+  - tank-0023
+  - tank-0002
+  - tank-0003
+  - tank-0014
+  - tank-0006
+  - tank-0012
+  - tank-0033
+  name: tank-0195
+- addnode:
+  - tank-0033
+  - tank-0020
+  - tank-0032
+  - tank-0013
+  - tank-0018
+  - tank-0016
+  - tank-0010
+  - tank-0034
+  name: tank-0196
+- addnode:
+  - tank-0043
+  - tank-0037
+  - tank-0004
+  - tank-0045
+  - tank-0006
+  - tank-0049
+  - tank-0030
+  - tank-0038
+  name: tank-0197
+- addnode:
+  - tank-0034
+  - tank-0001
+  - tank-0036
+  - tank-0023
+  - tank-0049
+  - tank-0040
+  - tank-0028
+  - tank-0007
+  name: tank-0198
+- addnode:
+  - tank-0044
+  - tank-0013
+  - tank-0047
+  - tank-0015
+  - tank-0017
+  - tank-0026
+  - tank-0001
+  - tank-0048
+  name: tank-0199
+- addnode:
+  - tank-0035
+  - tank-0015
+  - tank-0005
+  - tank-0018
+  - tank-0043
+  - tank-0030
+  - tank-0037
+  - tank-0008
+  name: tank-0200
+- addnode:
+  - tank-0028
+  - tank-0044
+  - tank-0007
+  - tank-0009
+  - tank-0047
+  - tank-0002
+  - tank-0045
+  - tank-0048
+  name: tank-0201
+- addnode:
+  - tank-0014
+  - tank-0010
+  - tank-0021
+  - tank-0038
+  - tank-0002
+  - tank-0039
+  - tank-0001
+  - tank-0012
+  name: tank-0202
+- addnode:
+  - tank-0047
+  - tank-0046
+  - tank-0005
+  - tank-0010
+  - tank-0003
+  - tank-0018
+  - tank-0006
+  - tank-0049
+  name: tank-0203
+- addnode:
+  - tank-0026
+  - tank-0004
+  - tank-0029
+  - tank-0028
+  - tank-0036
+  - tank-0030
+  - tank-0046
+  - tank-0040
+  name: tank-0204
+- addnode:
+  - tank-0026
+  - tank-0031
+  - tank-0010
+  - tank-0007
+  - tank-0011
+  - tank-0042
+  - tank-0038
+  - tank-0022
+  name: tank-0205
+- addnode:
+  - tank-0017
+  - tank-0002
+  - tank-0021
+  - tank-0025
+  - tank-0020
+  - tank-0034
+  - tank-0030
+  - tank-0033
+  name: tank-0206
+- addnode:
+  - tank-0044
+  - tank-0026
+  - tank-0002
+  - tank-0041
+  - tank-0000
+  - tank-0004
+  - tank-0022
+  - tank-0019
+  name: tank-0207
+- addnode:
+  - tank-0038
+  - tank-0032
+  - tank-0023
+  - tank-0006
+  - tank-0021
+  - tank-0001
+  - tank-0014
+  - tank-0042
+  name: tank-0208
+- addnode:
+  - tank-0026
+  - tank-0010
+  - tank-0019
+  - tank-0000
+  - tank-0025
+  - tank-0005
+  - tank-0041
+  - tank-0022
+  name: tank-0209
+- addnode:
+  - tank-0013
+  - tank-0036
+  - tank-0000
+  - tank-0047
+  - tank-0046
+  - tank-0017
+  - tank-0030
+  - tank-0039
+  name: tank-0210
+- addnode:
+  - tank-0003
+  - tank-0021
+  - tank-0027
+  - tank-0040
+  - tank-0009
+  - tank-0017
+  - tank-0026
+  - tank-0001
+  name: tank-0211
+- addnode:
+  - tank-0036
+  - tank-0030
+  - tank-0014
+  - tank-0033
+  - tank-0035
+  - tank-0027
+  - tank-0029
+  - tank-0026
+  name: tank-0212
+- addnode:
+  - tank-0033
+  - tank-0026
+  - tank-0048
+  - tank-0032
+  - tank-0037
+  - tank-0016
+  - tank-0030
+  - tank-0049
+  name: tank-0213
+- addnode:
+  - tank-0014
+  - tank-0049
+  - tank-0017
+  - tank-0019
+  - tank-0000
+  - tank-0027
+  - tank-0013
+  - tank-0042
+  name: tank-0214
+- addnode:
+  - tank-0022
+  - tank-0027
+  - tank-0043
+  - tank-0042
+  - tank-0000
+  - tank-0023
+  - tank-0026
+  - tank-0006
+  name: tank-0215
+- addnode:
+  - tank-0015
+  - tank-0047
+  - tank-0029
+  - tank-0048
+  - tank-0040
+  - tank-0027
+  - tank-0006
+  - tank-0042
+  name: tank-0216
+- addnode:
+  - tank-0038
+  - tank-0043
+  - tank-0042
+  - tank-0033
+  - tank-0001
+  - tank-0018
+  - tank-0045
+  - tank-0024
+  name: tank-0217
+- addnode:
+  - tank-0016
+  - tank-0023
+  - tank-0039
+  - tank-0012
+  - tank-0026
+  - tank-0021
+  - tank-0014
+  - tank-0007
+  name: tank-0218
+- addnode:
+  - tank-0033
+  - tank-0034
+  - tank-0029
+  - tank-0018
+  - tank-0006
+  - tank-0043
+  - tank-0046
+  - tank-0040
+  name: tank-0219
+- addnode:
+  - tank-0022
+  - tank-0010
+  - tank-0001
+  - tank-0035
+  - tank-0008
+  - tank-0028
+  - tank-0018
+  - tank-0011
+  name: tank-0220
+- addnode:
+  - tank-0026
+  - tank-0040
+  - tank-0017
+  - tank-0048
+  - tank-0042
+  - tank-0031
+  - tank-0009
+  - tank-0001
+  name: tank-0221
+- addnode:
+  - tank-0039
+  - tank-0040
+  - tank-0047
+  - tank-0021
+  - tank-0009
+  - tank-0027
+  - tank-0022
+  - tank-0044
+  name: tank-0222
+- addnode:
+  - tank-0048
+  - tank-0034
+  - tank-0033
+  - tank-0037
+  - tank-0040
+  - tank-0043
+  - tank-0008
+  - tank-0004
+  name: tank-0223
+- addnode:
+  - tank-0025
+  - tank-0037
+  - tank-0013
+  - tank-0044
+  - tank-0016
+  - tank-0018
+  - tank-0026
+  - tank-0023
+  name: tank-0224
+- addnode:
+  - tank-0037
+  - tank-0042
+  - tank-0031
+  - tank-0010
+  - tank-0011
+  - tank-0027
+  - tank-0001
+  - tank-0045
+  name: tank-0225
+- addnode:
+  - tank-0010
+  - tank-0024
+  - tank-0018
+  - tank-0014
+  - tank-0002
+  - tank-0006
+  - tank-0030
+  - tank-0004
+  name: tank-0226
+- addnode:
+  - tank-0038
+  - tank-0000
+  - tank-0010
+  - tank-0011
+  - tank-0032
+  - tank-0009
+  - tank-0002
+  - tank-0015
+  name: tank-0227
+- addnode:
+  - tank-0023
+  - tank-0000
+  - tank-0024
+  - tank-0037
+  - tank-0008
+  - tank-0048
+  - tank-0010
+  - tank-0014
+  name: tank-0228
+- addnode:
+  - tank-0033
+  - tank-0010
+  - tank-0036
+  - tank-0032
+  - tank-0048
+  - tank-0039
+  - tank-0000
+  - tank-0043
+  name: tank-0229
+- addnode:
+  - tank-0029
+  - tank-0021
+  - tank-0030
+  - tank-0012
+  - tank-0028
+  - tank-0045
+  - tank-0027
+  - tank-0036
+  name: tank-0230
+- addnode:
+  - tank-0008
+  - tank-0009
+  - tank-0019
+  - tank-0024
+  - tank-0031
+  - tank-0043
+  - tank-0016
+  - tank-0006
+  name: tank-0231
+- addnode:
+  - tank-0044
+  - tank-0008
+  - tank-0012
+  - tank-0004
+  - tank-0001
+  - tank-0045
+  - tank-0009
+  - tank-0023
+  name: tank-0232
+- addnode:
+  - tank-0000
+  - tank-0012
+  - tank-0038
+  - tank-0018
+  - tank-0029
+  - tank-0039
+  - tank-0003
+  - tank-0005
+  name: tank-0233
+- addnode:
+  - tank-0007
+  - tank-0009
+  - tank-0046
+  - tank-0023
+  - tank-0036
+  - tank-0040
+  - tank-0002
+  - tank-0031
+  name: tank-0234
+- addnode:
+  - tank-0007
+  - tank-0031
+  - tank-0029
+  - tank-0040
+  - tank-0013
+  - tank-0027
+  - tank-0022
+  - tank-0035
+  name: tank-0235
+- addnode:
+  - tank-0029
+  - tank-0020
+  - tank-0016
+  - tank-0005
+  - tank-0022
+  - tank-0011
+  - tank-0019
+  - tank-0002
+  name: tank-0236
+- addnode:
+  - tank-0022
+  - tank-0023
+  - tank-0010
+  - tank-0038
+  - tank-0042
+  - tank-0025
+  - tank-0015
+  - tank-0005
+  name: tank-0237
+- addnode:
+  - tank-0031
+  - tank-0013
+  - tank-0004
+  - tank-0027
+  - tank-0046
+  - tank-0026
+  - tank-0042
+  - tank-0025
+  name: tank-0238
+- addnode:
+  - tank-0049
+  - tank-0039
+  - tank-0047
+  - tank-0020
+  - tank-0027
+  - tank-0023
+  - tank-0034
+  - tank-0030
+  name: tank-0239
+- addnode:
+  - tank-0029
+  - tank-0009
+  - tank-0034
+  - tank-0015
+  - tank-0049
+  - tank-0048
+  - tank-0040
+  - tank-0010
+  name: tank-0240
+- addnode:
+  - tank-0032
+  - tank-0035
+  - tank-0029
+  - tank-0003
+  - tank-0002
+  - tank-0016
+  - tank-0028
+  - tank-0008
+  name: tank-0241
+- addnode:
+  - tank-0021
+  - tank-0035
+  - tank-0048
+  - tank-0031
+  - tank-0011
+  - tank-0014
+  - tank-0043
+  - tank-0028
+  name: tank-0242
+- addnode:
+  - tank-0019
+  - tank-0039
+  - tank-0000
+  - tank-0004
+  - tank-0036
+  - tank-0034
+  - tank-0046
+  - tank-0043
+  name: tank-0243
+- addnode:
+  - tank-0015
+  - tank-0024
+  - tank-0045
+  - tank-0009
+  - tank-0011
+  - tank-0000
+  - tank-0007
+  - tank-0049
+  name: tank-0244
+- addnode:
+  - tank-0012
+  - tank-0046
+  - tank-0000
+  - tank-0019
+  - tank-0026
+  - tank-0036
+  - tank-0003
+  - tank-0016
+  name: tank-0245
+- addnode:
+  - tank-0007
+  - tank-0038
+  - tank-0018
+  - tank-0003
+  - tank-0001
+  - tank-0039
+  - tank-0006
+  - tank-0009
+  name: tank-0246
+- addnode:
+  - tank-0036
+  - tank-0030
+  - tank-0033
+  - tank-0015
+  - tank-0006
+  - tank-0016
+  - tank-0025
+  - tank-0009
+  name: tank-0247
+- addnode:
+  - tank-0005
+  - tank-0019
+  - tank-0048
+  - tank-0028
+  - tank-0027
+  - tank-0006
+  - tank-0039
+  - tank-0031
+  name: tank-0248
+- addnode:
+  - tank-0010
+  - tank-0008
+  - tank-0036
+  - tank-0028
+  - tank-0000
+  - tank-0025
+  - tank-0031
+  - tank-0027
+  name: tank-0249
+- addnode:
+  - tank-0027
+  - tank-0047
+  - tank-0040
+  - tank-0013
+  - tank-0041
+  - tank-0035
+  - tank-0010
+  - tank-0011
+  name: tank-0250
+- addnode:
+  - tank-0048
+  - tank-0044
+  - tank-0029
+  - tank-0016
+  - tank-0042
+  - tank-0028
+  - tank-0019
+  - tank-0008
+  name: tank-0251
+- addnode:
+  - tank-0042
+  - tank-0005
+  - tank-0026
+  - tank-0001
+  - tank-0025
+  - tank-0045
+  - tank-0030
+  - tank-0046
+  name: tank-0252
+- addnode:
+  - tank-0014
+  - tank-0017
+  - tank-0009
+  - tank-0002
+  - tank-0019
+  - tank-0033
+  - tank-0031
+  - tank-0040
+  name: tank-0253
+- addnode:
+  - tank-0012
+  - tank-0014
+  - tank-0031
+  - tank-0030
+  - tank-0017
+  - tank-0016
+  - tank-0037
+  - tank-0003
+  name: tank-0254
+- addnode:
+  - tank-0028
+  - tank-0046
+  - tank-0042
+  - tank-0019
+  - tank-0022
+  - tank-0025
+  - tank-0030
+  - tank-0008
+  name: tank-0255
+- addnode:
+  - tank-0012
+  - tank-0039
+  - tank-0005
+  - tank-0042
+  - tank-0011
+  - tank-0002
+  - tank-0029
+  - tank-0022
+  name: tank-0256
+- addnode:
+  - tank-0030
+  - tank-0047
+  - tank-0016
+  - tank-0009
+  - tank-0038
+  - tank-0008
+  - tank-0049
+  - tank-0013
+  name: tank-0257
+- addnode:
+  - tank-0014
+  - tank-0044
+  - tank-0037
+  - tank-0000
+  - tank-0007
+  - tank-0039
+  - tank-0015
+  - tank-0030
+  name: tank-0258
+- addnode:
+  - tank-0025
+  - tank-0012
+  - tank-0019
+  - tank-0039
+  - tank-0021
+  - tank-0047
+  - tank-0013
+  - tank-0043
+  name: tank-0259
+- addnode:
+  - tank-0036
+  - tank-0039
+  - tank-0033
+  - tank-0020
+  - tank-0032
+  - tank-0022
+  - tank-0044
+  - tank-0012
+  name: tank-0260
+- addnode:
+  - tank-0005
+  - tank-0019
+  - tank-0004
+  - tank-0006
+  - tank-0002
+  - tank-0043
+  - tank-0028
+  - tank-0010
+  name: tank-0261
+- addnode:
+  - tank-0042
+  - tank-0015
+  - tank-0026
+  - tank-0044
+  - tank-0017
+  - tank-0035
+  - tank-0000
+  - tank-0037
+  name: tank-0262
+- addnode:
+  - tank-0041
+  - tank-0005
+  - tank-0032
+  - tank-0030
+  - tank-0029
+  - tank-0044
+  - tank-0016
+  - tank-0020
+  name: tank-0263
+- addnode:
+  - tank-0046
+  - tank-0040
+  - tank-0022
+  - tank-0025
+  - tank-0010
+  - tank-0041
+  - tank-0033
+  - tank-0011
+  name: tank-0264
+- addnode:
+  - tank-0011
+  - tank-0014
+  - tank-0036
+  - tank-0034
+  - tank-0019
+  - tank-0039
+  - tank-0037
+  - tank-0033
+  name: tank-0265
+- addnode:
+  - tank-0034
+  - tank-0022
+  - tank-0040
+  - tank-0019
+  - tank-0004
+  - tank-0038
+  - tank-0024
+  - tank-0010
+  name: tank-0266
+- addnode:
+  - tank-0000
+  - tank-0029
+  - tank-0018
+  - tank-0024
+  - tank-0011
+  - tank-0047
+  - tank-0002
+  - tank-0025
+  name: tank-0267
+- addnode:
+  - tank-0026
+  - tank-0041
+  - tank-0011
+  - tank-0000
+  - tank-0043
+  - tank-0047
+  - tank-0012
+  - tank-0015
+  name: tank-0268
+- addnode:
+  - tank-0024
+  - tank-0016
+  - tank-0018
+  - tank-0011
+  - tank-0002
+  - tank-0048
+  - tank-0040
+  - tank-0034
+  name: tank-0269
+- addnode:
+  - tank-0009
+  - tank-0034
+  - tank-0047
+  - tank-0012
+  - tank-0046
+  - tank-0000
+  - tank-0003
+  - tank-0014
+  name: tank-0270
+- addnode:
+  - tank-0029
+  - tank-0036
+  - tank-0002
+  - tank-0038
+  - tank-0034
+  - tank-0005
+  - tank-0046
+  - tank-0004
+  name: tank-0271
+- addnode:
+  - tank-0030
+  - tank-0035
+  - tank-0046
+  - tank-0016
+  - tank-0027
+  - tank-0019
+  - tank-0010
+  - tank-0038
+  name: tank-0272
+- addnode:
+  - tank-0037
+  - tank-0049
+  - tank-0010
+  - tank-0043
+  - tank-0024
+  - tank-0006
+  - tank-0002
+  - tank-0015
+  name: tank-0273
+- addnode:
+  - tank-0006
+  - tank-0024
+  - tank-0011
+  - tank-0028
+  - tank-0034
+  - tank-0016
+  - tank-0020
+  - tank-0043
+  name: tank-0274
+- addnode:
+  - tank-0036
+  - tank-0028
+  - tank-0004
+  - tank-0015
+  - tank-0027
+  - tank-0041
+  - tank-0042
+  - tank-0025
+  name: tank-0275
+- addnode:
+  - tank-0031
+  - tank-0006
+  - tank-0035
+  - tank-0001
+  - tank-0046
+  - tank-0002
+  - tank-0000
+  - tank-0011
+  name: tank-0276
+- addnode:
+  - tank-0011
+  - tank-0044
+  - tank-0033
+  - tank-0029
+  - tank-0023
+  - tank-0038
+  - tank-0034
+  - tank-0027
+  name: tank-0277
+- addnode:
+  - tank-0032
+  - tank-0033
+  - tank-0029
+  - tank-0010
+  - tank-0018
+  - tank-0022
+  - tank-0028
+  - tank-0049
+  name: tank-0278
+- addnode:
+  - tank-0031
+  - tank-0038
+  - tank-0030
+  - tank-0006
+  - tank-0011
+  - tank-0024
+  - tank-0036
+  - tank-0007
+  name: tank-0279
+- addnode:
+  - tank-0015
+  - tank-0039
+  - tank-0011
+  - tank-0045
+  - tank-0001
+  - tank-0049
+  - tank-0043
+  - tank-0021
+  name: tank-0280
+- addnode:
+  - tank-0036
+  - tank-0016
+  - tank-0006
+  - tank-0007
+  - tank-0013
+  - tank-0001
+  - tank-0014
+  - tank-0017
+  name: tank-0281
+- addnode:
+  - tank-0020
+  - tank-0023
+  - tank-0008
+  - tank-0013
+  - tank-0010
+  - tank-0042
+  - tank-0030
+  - tank-0046
+  name: tank-0282
+- addnode:
+  - tank-0006
+  - tank-0005
+  - tank-0035
+  - tank-0038
+  - tank-0047
+  - tank-0043
+  - tank-0000
+  - tank-0029
+  name: tank-0283
+- addnode:
+  - tank-0049
+  - tank-0033
+  - tank-0046
+  - tank-0020
+  - tank-0011
+  - tank-0022
+  - tank-0012
+  - tank-0005
+  name: tank-0284
+- addnode:
+  - tank-0029
+  - tank-0039
+  - tank-0027
+  - tank-0011
+  - tank-0026
+  - tank-0015
+  - tank-0009
+  - tank-0025
+  name: tank-0285
+- addnode:
+  - tank-0042
+  - tank-0007
+  - tank-0036
+  - tank-0011
+  - tank-0035
+  - tank-0026
+  - tank-0012
+  - tank-0010
+  name: tank-0286
+- addnode:
+  - tank-0030
+  - tank-0025
+  - tank-0040
+  - tank-0007
+  - tank-0031
+  - tank-0027
+  - tank-0003
+  - tank-0024
+  name: tank-0287
+- addnode:
+  - tank-0047
+  - tank-0030
+  - tank-0048
+  - tank-0027
+  - tank-0007
+  - tank-0020
+  - tank-0032
+  - tank-0022
+  name: tank-0288
+- addnode:
+  - tank-0033
+  - tank-0047
+  - tank-0044
+  - tank-0037
+  - tank-0004
+  - tank-0025
+  - tank-0028
+  - tank-0042
+  name: tank-0289
+- addnode:
+  - tank-0013
+  - tank-0035
+  - tank-0007
+  - tank-0046
+  - tank-0027
+  - tank-0042
+  - tank-0047
+  - tank-0002
+  name: tank-0290
+- addnode:
+  - tank-0003
+  - tank-0018
+  - tank-0039
+  - tank-0027
+  - tank-0016
+  - tank-0007
+  - tank-0034
+  - tank-0044
+  name: tank-0291
+- addnode:
+  - tank-0026
+  - tank-0049
+  - tank-0000
+  - tank-0017
+  - tank-0001
+  - tank-0044
+  - tank-0034
+  - tank-0030
+  name: tank-0292
+- addnode:
+  - tank-0003
+  - tank-0047
+  - tank-0021
+  - tank-0033
+  - tank-0039
+  - tank-0042
+  - tank-0029
+  - tank-0031
+  name: tank-0293
+- addnode:
+  - tank-0003
+  - tank-0021
+  - tank-0004
+  - tank-0002
+  - tank-0018
+  - tank-0038
+  - tank-0023
+  - tank-0014
+  name: tank-0294
+- addnode:
+  - tank-0021
+  - tank-0013
+  - tank-0046
+  - tank-0022
+  - tank-0045
+  - tank-0028
+  - tank-0043
+  - tank-0035
+  name: tank-0295
+- addnode:
+  - tank-0037
+  - tank-0047
+  - tank-0021
+  - tank-0029
+  - tank-0036
+  - tank-0025
+  - tank-0023
+  - tank-0005
+  name: tank-0296
+- addnode:
+  - tank-0043
+  - tank-0040
+  - tank-0032
+  - tank-0006
+  - tank-0049
+  - tank-0008
+  - tank-0046
+  - tank-0041
+  name: tank-0297
+- addnode:
+  - tank-0035
+  - tank-0022
+  - tank-0014
+  - tank-0037
+  - tank-0003
+  - tank-0002
+  - tank-0047
+  - tank-0042
+  name: tank-0298
+- addnode:
+  - tank-0023
+  - tank-0026
+  - tank-0027
+  - tank-0004
+  - tank-0034
+  - tank-0009
+  - tank-0046
+  - tank-0010
+  name: tank-0299
+- addnode:
+  - tank-0022
+  - tank-0041
+  - tank-0009
+  - tank-0046
+  - tank-0040
+  - tank-0032
+  - tank-0012
+  - tank-0028
+  name: tank-0300
+- addnode:
+  - tank-0011
+  - tank-0035
+  - tank-0047
+  - tank-0001
+  - tank-0002
+  - tank-0032
+  - tank-0026
+  - tank-0000
+  name: tank-0301
+- addnode:
+  - tank-0010
+  - tank-0023
+  - tank-0003
+  - tank-0014
+  - tank-0024
+  - tank-0026
+  - tank-0035
+  - tank-0048
+  name: tank-0302
+- addnode:
+  - tank-0019
+  - tank-0026
+  - tank-0032
+  - tank-0005
+  - tank-0013
+  - tank-0004
+  - tank-0016
+  - tank-0017
+  name: tank-0303
+- addnode:
+  - tank-0019
+  - tank-0008
+  - tank-0046
+  - tank-0021
+  - tank-0011
+  - tank-0041
+  - tank-0015
+  - tank-0029
+  name: tank-0304
+- addnode:
+  - tank-0023
+  - tank-0036
+  - tank-0030
+  - tank-0038
+  - tank-0031
+  - tank-0042
+  - tank-0041
+  - tank-0022
+  name: tank-0305
+- addnode:
+  - tank-0036
+  - tank-0044
+  - tank-0005
+  - tank-0034
+  - tank-0006
+  - tank-0003
+  - tank-0041
+  - tank-0012
+  name: tank-0306
+- addnode:
+  - tank-0011
+  - tank-0047
+  - tank-0041
+  - tank-0030
+  - tank-0002
+  - tank-0032
+  - tank-0049
+  - tank-0046
+  name: tank-0307
+- addnode:
+  - tank-0036
+  - tank-0042
+  - tank-0023
+  - tank-0013
+  - tank-0045
+  - tank-0028
+  - tank-0007
+  - tank-0043
+  name: tank-0308
+- addnode:
+  - tank-0005
+  - tank-0017
+  - tank-0002
+  - tank-0023
+  - tank-0048
+  - tank-0036
+  - tank-0019
+  - tank-0010
+  name: tank-0309
+- addnode:
+  - tank-0013
+  - tank-0024
+  - tank-0043
+  - tank-0039
+  - tank-0008
+  - tank-0049
+  - tank-0025
+  - tank-0032
+  name: tank-0310
+- addnode:
+  - tank-0037
+  - tank-0023
+  - tank-0027
+  - tank-0002
+  - tank-0018
+  - tank-0043
+  - tank-0045
+  - tank-0020
+  name: tank-0311
+- addnode:
+  - tank-0046
+  - tank-0012
+  - tank-0038
+  - tank-0037
+  - tank-0029
+  - tank-0017
+  - tank-0018
+  - tank-0003
+  name: tank-0312
+- addnode:
+  - tank-0023
+  - tank-0025
+  - tank-0039
+  - tank-0002
+  - tank-0019
+  - tank-0005
+  - tank-0008
+  - tank-0022
+  name: tank-0313
+- addnode:
+  - tank-0033
+  - tank-0000
+  - tank-0018
+  - tank-0034
+  - tank-0032
+  - tank-0023
+  - tank-0010
+  - tank-0043
+  name: tank-0314
+- addnode:
+  - tank-0027
+  - tank-0043
+  - tank-0034
+  - tank-0032
+  - tank-0046
+  - tank-0031
+  - tank-0005
+  - tank-0047
+  name: tank-0315
+- addnode:
+  - tank-0018
+  - tank-0009
+  - tank-0022
+  - tank-0040
+  - tank-0036
+  - tank-0004
+  - tank-0043
+  - tank-0023
+  name: tank-0316
+- addnode:
+  - tank-0008
+  - tank-0031
+  - tank-0029
+  - tank-0023
+  - tank-0041
+  - tank-0038
+  - tank-0002
+  - tank-0040
+  name: tank-0317
+- addnode:
+  - tank-0035
+  - tank-0026
+  - tank-0027
+  - tank-0013
+  - tank-0039
+  - tank-0036
+  - tank-0009
+  - tank-0008
+  name: tank-0318
+- addnode:
+  - tank-0018
+  - tank-0030
+  - tank-0043
+  - tank-0049
+  - tank-0012
+  - tank-0034
+  - tank-0002
+  - tank-0041
+  name: tank-0319
+- addnode:
+  - tank-0033
+  - tank-0035
+  - tank-0025
+  - tank-0032
+  - tank-0039
+  - tank-0011
+  - tank-0017
+  - tank-0004
+  name: tank-0320
+- addnode:
+  - tank-0009
+  - tank-0040
+  - tank-0048
+  - tank-0026
+  - tank-0011
+  - tank-0018
+  - tank-0039
+  - tank-0029
+  name: tank-0321
+- addnode:
+  - tank-0013
+  - tank-0033
+  - tank-0048
+  - tank-0011
+  - tank-0044
+  - tank-0046
+  - tank-0019
+  - tank-0047
+  name: tank-0322
+- addnode:
+  - tank-0046
+  - tank-0021
+  - tank-0026
+  - tank-0005
+  - tank-0030
+  - tank-0003
+  - tank-0034
+  - tank-0047
+  name: tank-0323
+- addnode:
+  - tank-0034
+  - tank-0022
+  - tank-0012
+  - tank-0021
+  - tank-0025
+  - tank-0002
+  - tank-0005
+  - tank-0023
+  name: tank-0324
+- addnode:
+  - tank-0048
+  - tank-0012
+  - tank-0023
+  - tank-0030
+  - tank-0046
+  - tank-0039
+  - tank-0040
+  - tank-0004
+  name: tank-0325
+- addnode:
+  - tank-0010
+  - tank-0031
+  - tank-0005
+  - tank-0001
+  - tank-0012
+  - tank-0013
+  - tank-0000
+  - tank-0007
+  name: tank-0326
+- addnode:
+  - tank-0029
+  - tank-0008
+  - tank-0024
+  - tank-0045
+  - tank-0009
+  - tank-0012
+  - tank-0034
+  - tank-0023
+  name: tank-0327
+- addnode:
+  - tank-0024
+  - tank-0028
+  - tank-0023
+  - tank-0035
+  - tank-0022
+  - tank-0038
+  - tank-0045
+  - tank-0011
+  name: tank-0328
+- addnode:
+  - tank-0035
+  - tank-0037
+  - tank-0015
+  - tank-0041
+  - tank-0007
+  - tank-0009
+  - tank-0002
+  - tank-0028
+  name: tank-0329
+- addnode:
+  - tank-0003
+  - tank-0029
+  - tank-0026
+  - tank-0023
+  - tank-0043
+  - tank-0010
+  - tank-0034
+  - tank-0014
+  name: tank-0330
+- addnode:
+  - tank-0002
+  - tank-0046
+  - tank-0026
+  - tank-0003
+  - tank-0001
+  - tank-0015
+  - tank-0040
+  - tank-0006
+  name: tank-0331
+- addnode:
+  - tank-0035
+  - tank-0002
+  - tank-0049
+  - tank-0030
+  - tank-0042
+  - tank-0009
+  - tank-0021
+  - tank-0019
+  name: tank-0332
+- addnode:
+  - tank-0044
+  - tank-0047
+  - tank-0016
+  - tank-0032
+  - tank-0027
+  - tank-0040
+  - tank-0041
+  - tank-0033
+  name: tank-0333
+- addnode:
+  - tank-0020
+  - tank-0016
+  - tank-0011
+  - tank-0027
+  - tank-0041
+  - tank-0022
+  - tank-0023
+  - tank-0039
+  name: tank-0334
+- addnode:
+  - tank-0048
+  - tank-0042
+  - tank-0026
+  - tank-0043
+  - tank-0032
+  - tank-0019
+  - tank-0045
+  - tank-0041
+  name: tank-0335
+- addnode:
+  - tank-0049
+  - tank-0024
+  - tank-0041
+  - tank-0019
+  - tank-0040
+  - tank-0000
+  - tank-0037
+  - tank-0046
+  name: tank-0336
+- addnode:
+  - tank-0037
+  - tank-0018
+  - tank-0015
+  - tank-0028
+  - tank-0041
+  - tank-0045
+  - tank-0042
+  - tank-0033
+  name: tank-0337
+- addnode:
+  - tank-0045
+  - tank-0032
+  - tank-0037
+  - tank-0019
+  - tank-0048
+  - tank-0015
+  - tank-0026
+  - tank-0010
+  name: tank-0338
+- addnode:
+  - tank-0032
+  - tank-0038
+  - tank-0039
+  - tank-0048
+  - tank-0025
+  - tank-0022
+  - tank-0034
+  - tank-0042
+  name: tank-0339
+- addnode:
+  - tank-0031
+  - tank-0013
+  - tank-0041
+  - tank-0024
+  - tank-0007
+  - tank-0015
+  - tank-0033
+  - tank-0036
+  name: tank-0340
+- addnode:
+  - tank-0037
+  - tank-0024
+  - tank-0000
+  - tank-0020
+  - tank-0007
+  - tank-0031
+  - tank-0026
+  - tank-0016
+  name: tank-0341
+- addnode:
+  - tank-0027
+  - tank-0020
+  - tank-0005
+  - tank-0006
+  - tank-0001
+  - tank-0048
+  - tank-0032
+  - tank-0031
+  name: tank-0342
+- addnode:
+  - tank-0047
+  - tank-0015
+  - tank-0021
+  - tank-0026
+  - tank-0008
+  - tank-0014
+  - tank-0004
+  - tank-0012
+  name: tank-0343
+- addnode:
+  - tank-0032
+  - tank-0043
+  - tank-0005
+  - tank-0046
+  - tank-0044
+  - tank-0013
+  - tank-0011
+  - tank-0024
+  name: tank-0344
+- addnode:
+  - tank-0030
+  - tank-0017
+  - tank-0009
+  - tank-0015
+  - tank-0021
+  - tank-0045
+  - tank-0037
+  - tank-0039
+  name: tank-0345
+- addnode:
+  - tank-0026
+  - tank-0027
+  - tank-0040
+  - tank-0022
+  - tank-0021
+  - tank-0025
+  - tank-0017
+  - tank-0009
+  name: tank-0346
+- addnode:
+  - tank-0029
+  - tank-0017
+  - tank-0006
+  - tank-0043
+  - tank-0039
+  - tank-0044
+  - tank-0032
+  - tank-0028
+  name: tank-0347
+- addnode:
+  - tank-0018
+  - tank-0026
+  - tank-0029
+  - tank-0039
+  - tank-0015
+  - tank-0038
+  - tank-0009
+  - tank-0005
+  name: tank-0348
+- addnode:
+  - tank-0025
+  - tank-0031
+  - tank-0033
+  - tank-0041
+  - tank-0036
+  - tank-0021
+  - tank-0037
+  - tank-0017
+  name: tank-0349
+- addnode:
+  - tank-0029
+  - tank-0043
+  - tank-0033
+  - tank-0016
+  - tank-0013
+  - tank-0021
+  - tank-0005
+  - tank-0049
+  name: tank-0350
+- addnode:
+  - tank-0000
+  - tank-0010
+  - tank-0019
+  - tank-0045
+  - tank-0017
+  - tank-0036
+  - tank-0039
+  - tank-0015
+  name: tank-0351
+- addnode:
+  - tank-0000
+  - tank-0039
+  - tank-0048
+  - tank-0012
+  - tank-0020
+  - tank-0022
+  - tank-0006
+  - tank-0004
+  name: tank-0352
+- addnode:
+  - tank-0043
+  - tank-0049
+  - tank-0000
+  - tank-0008
+  - tank-0044
+  - tank-0019
+  - tank-0004
+  - tank-0048
+  name: tank-0353
+- addnode:
+  - tank-0015
+  - tank-0036
+  - tank-0003
+  - tank-0032
+  - tank-0046
+  - tank-0041
+  - tank-0004
+  - tank-0002
+  name: tank-0354
+- addnode:
+  - tank-0040
+  - tank-0010
+  - tank-0005
+  - tank-0008
+  - tank-0013
+  - tank-0036
+  - tank-0012
+  - tank-0001
+  name: tank-0355
+- addnode:
+  - tank-0015
+  - tank-0001
+  - tank-0022
+  - tank-0034
+  - tank-0047
+  - tank-0024
+  - tank-0017
+  - tank-0000
+  name: tank-0356
+- addnode:
+  - tank-0009
+  - tank-0005
+  - tank-0038
+  - tank-0008
+  - tank-0042
+  - tank-0002
+  - tank-0006
+  - tank-0040
+  name: tank-0357
+- addnode:
+  - tank-0027
+  - tank-0022
+  - tank-0007
+  - tank-0024
+  - tank-0033
+  - tank-0021
+  - tank-0011
+  - tank-0047
+  name: tank-0358
+- addnode:
+  - tank-0034
+  - tank-0016
+  - tank-0045
+  - tank-0041
+  - tank-0017
+  - tank-0028
+  - tank-0000
+  - tank-0029
+  name: tank-0359
+- addnode:
+  - tank-0023
+  - tank-0025
+  - tank-0048
+  - tank-0015
+  - tank-0046
+  - tank-0007
+  - tank-0049
+  - tank-0041
+  name: tank-0360
+- addnode:
+  - tank-0030
+  - tank-0022
+  - tank-0031
+  - tank-0010
+  - tank-0032
+  - tank-0004
+  - tank-0037
+  - tank-0038
+  name: tank-0361
+- addnode:
+  - tank-0008
+  - tank-0047
+  - tank-0029
+  - tank-0014
+  - tank-0027
+  - tank-0000
+  - tank-0015
+  - tank-0038
+  name: tank-0362
+- addnode:
+  - tank-0041
+  - tank-0016
+  - tank-0012
+  - tank-0001
+  - tank-0007
+  - tank-0022
+  - tank-0027
+  - tank-0043
+  name: tank-0363
+- addnode:
+  - tank-0026
+  - tank-0025
+  - tank-0032
+  - tank-0022
+  - tank-0023
+  - tank-0011
+  - tank-0046
+  - tank-0012
+  name: tank-0364
+- addnode:
+  - tank-0020
+  - tank-0023
+  - tank-0008
+  - tank-0043
+  - tank-0010
+  - tank-0038
+  - tank-0005
+  - tank-0025
+  name: tank-0365
+- addnode:
+  - tank-0011
+  - tank-0021
+  - tank-0013
+  - tank-0046
+  - tank-0003
+  - tank-0005
+  - tank-0004
+  - tank-0031
+  name: tank-0366
+- addnode:
+  - tank-0015
+  - tank-0041
+  - tank-0018
+  - tank-0035
+  - tank-0003
+  - tank-0020
+  - tank-0011
+  - tank-0046
+  name: tank-0367
+- addnode:
+  - tank-0002
+  - tank-0032
+  - tank-0011
+  - tank-0009
+  - tank-0010
+  - tank-0034
+  - tank-0006
+  - tank-0014
+  name: tank-0368
+- addnode:
+  - tank-0005
+  - tank-0030
+  - tank-0011
+  - tank-0016
+  - tank-0023
+  - tank-0037
+  - tank-0035
+  - tank-0012
+  name: tank-0369
+- addnode:
+  - tank-0014
+  - tank-0020
+  - tank-0011
+  - tank-0044
+  - tank-0047
+  - tank-0017
+  - tank-0022
+  - tank-0041
+  name: tank-0370
+- addnode:
+  - tank-0040
+  - tank-0023
+  - tank-0002
+  - tank-0016
+  - tank-0033
+  - tank-0029
+  - tank-0035
+  - tank-0037
+  name: tank-0371
+- addnode:
+  - tank-0033
+  - tank-0011
+  - tank-0001
+  - tank-0041
+  - tank-0045
+  - tank-0047
+  - tank-0049
+  - tank-0008
+  name: tank-0372
+- addnode:
+  - tank-0023
+  - tank-0034
+  - tank-0005
+  - tank-0003
+  - tank-0040
+  - tank-0048
+  - tank-0036
+  - tank-0037
+  name: tank-0373
+- addnode:
+  - tank-0040
+  - tank-0024
+  - tank-0001
+  - tank-0039
+  - tank-0036
+  - tank-0028
+  - tank-0023
+  - tank-0000
+  name: tank-0374
+- addnode:
+  - tank-0012
+  - tank-0031
+  - tank-0037
+  - tank-0005
+  - tank-0042
+  - tank-0008
+  - tank-0003
+  - tank-0020
+  name: tank-0375
+- addnode:
+  - tank-0002
+  - tank-0041
+  - tank-0001
+  - tank-0011
+  - tank-0010
+  - tank-0023
+  - tank-0007
+  - tank-0006
+  name: tank-0376
+- addnode:
+  - tank-0035
+  - tank-0033
+  - tank-0021
+  - tank-0049
+  - tank-0032
+  - tank-0005
+  - tank-0029
+  - tank-0045
+  name: tank-0377
+- addnode:
+  - tank-0026
+  - tank-0010
+  - tank-0008
+  - tank-0035
+  - tank-0042
+  - tank-0001
+  - tank-0032
+  - tank-0015
+  name: tank-0378
+- addnode:
+  - tank-0032
+  - tank-0017
+  - tank-0034
+  - tank-0039
+  - tank-0026
+  - tank-0027
+  - tank-0013
+  - tank-0029
+  name: tank-0379
+- addnode:
+  - tank-0031
+  - tank-0017
+  - tank-0046
+  - tank-0006
+  - tank-0023
+  - tank-0028
+  - tank-0018
+  - tank-0000
+  name: tank-0380
+- addnode:
+  - tank-0044
+  - tank-0035
+  - tank-0040
+  - tank-0042
+  - tank-0006
+  - tank-0041
+  - tank-0047
+  - tank-0038
+  name: tank-0381
+- addnode:
+  - tank-0019
+  - tank-0049
+  - tank-0001
+  - tank-0024
+  - tank-0021
+  - tank-0013
+  - tank-0030
+  - tank-0015
+  name: tank-0382
+- addnode:
+  - tank-0034
+  - tank-0007
+  - tank-0014
+  - tank-0045
+  - tank-0016
+  - tank-0009
+  - tank-0037
+  - tank-0028
+  name: tank-0383
+- addnode:
+  - tank-0037
+  - tank-0009
+  - tank-0003
+  - tank-0001
+  - tank-0047
+  - tank-0019
+  - tank-0023
+  - tank-0030
+  name: tank-0384
+- addnode:
+  - tank-0034
+  - tank-0046
+  - tank-0045
+  - tank-0012
+  - tank-0014
+  - tank-0048
+  - tank-0018
+  - tank-0004
+  name: tank-0385
+- addnode:
+  - tank-0036
+  - tank-0041
+  - tank-0029
+  - tank-0039
+  - tank-0003
+  - tank-0006
+  - tank-0028
+  - tank-0047
+  name: tank-0386
+- addnode:
+  - tank-0034
+  - tank-0015
+  - tank-0002
+  - tank-0035
+  - tank-0019
+  - tank-0045
+  - tank-0046
+  - tank-0008
+  name: tank-0387
+- addnode:
+  - tank-0024
+  - tank-0017
+  - tank-0004
+  - tank-0045
+  - tank-0002
+  - tank-0030
+  - tank-0016
+  - tank-0005
+  name: tank-0388
+- addnode:
+  - tank-0011
+  - tank-0047
+  - tank-0015
+  - tank-0028
+  - tank-0007
+  - tank-0012
+  - tank-0044
+  - tank-0022
+  name: tank-0389
+- addnode:
+  - tank-0002
+  - tank-0033
+  - tank-0015
+  - tank-0048
+  - tank-0004
+  - tank-0037
+  - tank-0021
+  - tank-0034
+  name: tank-0390
+- addnode:
+  - tank-0047
+  - tank-0023
+  - tank-0037
+  - tank-0004
+  - tank-0009
+  - tank-0031
+  - tank-0028
+  - tank-0036
+  name: tank-0391
+- addnode:
+  - tank-0032
+  - tank-0022
+  - tank-0046
+  - tank-0034
+  - tank-0036
+  - tank-0001
+  - tank-0040
+  - tank-0039
+  name: tank-0392
+- addnode:
+  - tank-0001
+  - tank-0008
+  - tank-0034
+  - tank-0009
+  - tank-0024
+  - tank-0037
+  - tank-0015
+  - tank-0016
+  name: tank-0393
+- addnode:
+  - tank-0049
+  - tank-0034
+  - tank-0027
+  - tank-0001
+  - tank-0040
+  - tank-0014
+  - tank-0038
+  - tank-0010
+  name: tank-0394
+- addnode:
+  - tank-0009
+  - tank-0048
+  - tank-0021
+  - tank-0043
+  - tank-0029
+  - tank-0034
+  - tank-0032
+  - tank-0027
+  name: tank-0395
+- addnode:
+  - tank-0035
+  - tank-0042
+  - tank-0048
+  - tank-0028
+  - tank-0000
+  - tank-0025
+  - tank-0046
+  - tank-0010
+  name: tank-0396
+- addnode:
+  - tank-0020
+  - tank-0005
+  - tank-0013
+  - tank-0016
+  - tank-0008
+  - tank-0024
+  - tank-0010
+  - tank-0031
+  name: tank-0397
+- addnode:
+  - tank-0031
+  - tank-0041
+  - tank-0032
+  - tank-0002
+  - tank-0038
+  - tank-0035
+  - tank-0011
+  - tank-0019
+  name: tank-0398
+- addnode:
+  - tank-0024
+  - tank-0033
+  - tank-0023
+  - tank-0002
+  - tank-0032
+  - tank-0025
+  - tank-0044
+  - tank-0005
+  name: tank-0399
+- addnode:
+  - tank-0000
+  - tank-0022
+  - tank-0023
+  - tank-0031
+  - tank-0025
+  - tank-0049
+  - tank-0021
+  - tank-0038
+  name: tank-0400
+- addnode:
+  - tank-0000
+  - tank-0007
+  - tank-0031
+  - tank-0002
+  - tank-0023
+  - tank-0049
+  - tank-0010
+  - tank-0003
+  name: tank-0401
+- addnode:
+  - tank-0049
+  - tank-0041
+  - tank-0010
+  - tank-0037
+  - tank-0015
+  - tank-0000
+  - tank-0020
+  - tank-0003
+  name: tank-0402
+- addnode:
+  - tank-0030
+  - tank-0003
+  - tank-0042
+  - tank-0004
+  - tank-0037
+  - tank-0010
+  - tank-0034
+  - tank-0033
+  name: tank-0403
+- addnode:
+  - tank-0033
+  - tank-0046
+  - tank-0012
+  - tank-0028
+  - tank-0020
+  - tank-0032
+  - tank-0016
+  - tank-0025
+  name: tank-0404
+- addnode:
+  - tank-0017
+  - tank-0018
+  - tank-0009
+  - tank-0005
+  - tank-0026
+  - tank-0006
+  - tank-0025
+  - tank-0042
+  name: tank-0405
+- addnode:
+  - tank-0005
+  - tank-0009
+  - tank-0042
+  - tank-0048
+  - tank-0038
+  - tank-0024
+  - tank-0006
+  - tank-0010
+  name: tank-0406
+- addnode:
+  - tank-0025
+  - tank-0003
+  - tank-0013
+  - tank-0023
+  - tank-0044
+  - tank-0033
+  - tank-0034
+  - tank-0042
+  name: tank-0407
+- addnode:
+  - tank-0036
+  - tank-0002
+  - tank-0012
+  - tank-0019
+  - tank-0005
+  - tank-0025
+  - tank-0044
+  - tank-0007
+  name: tank-0408
+- addnode:
+  - tank-0031
+  - tank-0016
+  - tank-0022
+  - tank-0049
+  - tank-0027
+  - tank-0041
+  - tank-0018
+  - tank-0032
+  name: tank-0409
+- addnode:
+  - tank-0015
+  - tank-0018
+  - tank-0032
+  - tank-0020
+  - tank-0016
+  - tank-0000
+  - tank-0017
+  - tank-0011
+  name: tank-0410
+- addnode:
+  - tank-0046
+  - tank-0041
+  - tank-0047
+  - tank-0035
+  - tank-0002
+  - tank-0036
+  - tank-0019
+  - tank-0018
+  name: tank-0411
+- addnode:
+  - tank-0040
+  - tank-0014
+  - tank-0007
+  - tank-0015
+  - tank-0009
+  - tank-0038
+  - tank-0021
+  - tank-0047
+  name: tank-0412
+- addnode:
+  - tank-0024
+  - tank-0049
+  - tank-0034
+  - tank-0012
+  - tank-0010
+  - tank-0032
+  - tank-0038
+  - tank-0048
+  name: tank-0413
+- addnode:
+  - tank-0023
+  - tank-0001
+  - tank-0033
+  - tank-0011
+  - tank-0002
+  - tank-0015
+  - tank-0013
+  - tank-0004
+  name: tank-0414
+- addnode:
+  - tank-0041
+  - tank-0047
+  - tank-0043
+  - tank-0036
+  - tank-0022
+  - tank-0037
+  - tank-0011
+  - tank-0010
+  name: tank-0415
+- addnode:
+  - tank-0026
+  - tank-0008
+  - tank-0027
+  - tank-0049
+  - tank-0028
+  - tank-0007
+  - tank-0020
+  - tank-0025
+  name: tank-0416
+- addnode:
+  - tank-0035
+  - tank-0047
+  - tank-0010
+  - tank-0020
+  - tank-0041
+  - tank-0024
+  - tank-0039
+  - tank-0017
+  name: tank-0417
+- addnode:
+  - tank-0036
+  - tank-0019
+  - tank-0038
+  - tank-0002
+  - tank-0032
+  - tank-0022
+  - tank-0027
+  - tank-0011
+  name: tank-0418
+- addnode:
+  - tank-0006
+  - tank-0017
+  - tank-0013
+  - tank-0002
+  - tank-0019
+  - tank-0046
+  - tank-0022
+  - tank-0047
+  name: tank-0419
+- addnode:
+  - tank-0028
+  - tank-0034
+  - tank-0047
+  - tank-0043
+  - tank-0048
+  - tank-0015
+  - tank-0038
+  - tank-0011
+  name: tank-0420
+- addnode:
+  - tank-0036
+  - tank-0017
+  - tank-0032
+  - tank-0042
+  - tank-0021
+  - tank-0030
+  - tank-0006
+  - tank-0049
+  name: tank-0421
+- addnode:
+  - tank-0002
+  - tank-0025
+  - tank-0022
+  - tank-0035
+  - tank-0037
+  - tank-0040
+  - tank-0033
+  - tank-0005
+  name: tank-0422
+- addnode:
+  - tank-0007
+  - tank-0046
+  - tank-0035
+  - tank-0045
+  - tank-0018
+  - tank-0013
+  - tank-0034
+  - tank-0014
+  name: tank-0423
+- addnode:
+  - tank-0005
+  - tank-0038
+  - tank-0015
+  - tank-0006
+  - tank-0008
+  - tank-0007
+  - tank-0001
+  - tank-0046
+  name: tank-0424
+- addnode:
+  - tank-0002
+  - tank-0046
+  - tank-0034
+  - tank-0013
+  - tank-0017
+  - tank-0015
+  - tank-0028
+  - tank-0007
+  name: tank-0425
+- addnode:
+  - tank-0020
+  - tank-0041
+  - tank-0031
+  - tank-0034
+  - tank-0019
+  - tank-0013
+  - tank-0044
+  - tank-0014
+  name: tank-0426
+- addnode:
+  - tank-0025
+  - tank-0046
+  - tank-0006
+  - tank-0032
+  - tank-0011
+  - tank-0044
+  - tank-0021
+  - tank-0039
+  name: tank-0427
+- addnode:
+  - tank-0029
+  - tank-0042
+  - tank-0043
+  - tank-0033
+  - tank-0003
+  - tank-0002
+  - tank-0032
+  - tank-0039
+  name: tank-0428
+- addnode:
+  - tank-0028
+  - tank-0025
+  - tank-0030
+  - tank-0021
+  - tank-0041
+  - tank-0048
+  - tank-0005
+  - tank-0001
+  name: tank-0429
+- addnode:
+  - tank-0013
+  - tank-0045
+  - tank-0041
+  - tank-0046
+  - tank-0036
+  - tank-0024
+  - tank-0014
+  - tank-0004
+  name: tank-0430
+- addnode:
+  - tank-0012
+  - tank-0000
+  - tank-0041
+  - tank-0027
+  - tank-0029
+  - tank-0042
+  - tank-0046
+  - tank-0045
+  name: tank-0431
+- addnode:
+  - tank-0023
+  - tank-0032
+  - tank-0036
+  - tank-0028
+  - tank-0003
+  - tank-0009
+  - tank-0043
+  - tank-0002
+  name: tank-0432
+- addnode:
+  - tank-0029
+  - tank-0027
+  - tank-0022
+  - tank-0023
+  - tank-0019
+  - tank-0049
+  - tank-0011
+  - tank-0034
+  name: tank-0433
+- addnode:
+  - tank-0033
+  - tank-0041
+  - tank-0001
+  - tank-0002
+  - tank-0014
+  - tank-0024
+  - tank-0038
+  - tank-0040
+  name: tank-0434
+- addnode:
+  - tank-0020
+  - tank-0001
+  - tank-0006
+  - tank-0005
+  - tank-0037
+  - tank-0027
+  - tank-0045
+  - tank-0021
+  name: tank-0435
+- addnode:
+  - tank-0014
+  - tank-0041
+  - tank-0027
+  - tank-0007
+  - tank-0023
+  - tank-0045
+  - tank-0049
+  - tank-0029
+  name: tank-0436
+- addnode:
+  - tank-0029
+  - tank-0035
+  - tank-0034
+  - tank-0008
+  - tank-0028
+  - tank-0049
+  - tank-0032
+  - tank-0010
+  name: tank-0437
+- addnode:
+  - tank-0025
+  - tank-0030
+  - tank-0017
+  - tank-0032
+  - tank-0039
+  - tank-0028
+  - tank-0023
+  - tank-0001
+  name: tank-0438
+- addnode:
+  - tank-0009
+  - tank-0005
+  - tank-0028
+  - tank-0027
+  - tank-0031
+  - tank-0039
+  - tank-0012
+  - tank-0043
+  name: tank-0439
+- addnode:
+  - tank-0012
+  - tank-0036
+  - tank-0000
+  - tank-0004
+  - tank-0033
+  - tank-0049
+  - tank-0014
+  - tank-0032
+  name: tank-0440
+- addnode:
+  - tank-0027
+  - tank-0000
+  - tank-0015
+  - tank-0024
+  - tank-0036
+  - tank-0038
+  - tank-0001
+  - tank-0016
+  name: tank-0441
+- addnode:
+  - tank-0018
+  - tank-0048
+  - tank-0038
+  - tank-0036
+  - tank-0033
+  - tank-0014
+  - tank-0039
+  - tank-0029
+  name: tank-0442
+- addnode:
+  - tank-0007
+  - tank-0035
+  - tank-0008
+  - tank-0043
+  - tank-0048
+  - tank-0020
+  - tank-0033
+  - tank-0024
+  name: tank-0443
+- addnode:
+  - tank-0002
+  - tank-0032
+  - tank-0024
+  - tank-0038
+  - tank-0030
+  - tank-0042
+  - tank-0019
+  - tank-0005
+  name: tank-0444
+- addnode:
+  - tank-0005
+  - tank-0019
+  - tank-0030
+  - tank-0026
+  - tank-0014
+  - tank-0002
+  - tank-0012
+  - tank-0016
+  name: tank-0445
+- addnode:
+  - tank-0035
+  - tank-0045
+  - tank-0004
+  - tank-0011
+  - tank-0010
+  - tank-0028
+  - tank-0000
+  - tank-0047
+  name: tank-0446
+- addnode:
+  - tank-0035
+  - tank-0033
+  - tank-0017
+  - tank-0005
+  - tank-0032
+  - tank-0026
+  - tank-0011
+  - tank-0040
+  name: tank-0447
+- addnode:
+  - tank-0010
+  - tank-0003
+  - tank-0043
+  - tank-0030
+  - tank-0016
+  - tank-0044
+  - tank-0028
+  - tank-0036
+  name: tank-0448
+- addnode:
+  - tank-0028
+  - tank-0044
+  - tank-0026
+  - tank-0006
+  - tank-0049
+  - tank-0014
+  - tank-0033
+  - tank-0020
+  name: tank-0449
+- addnode:
+  - tank-0034
+  - tank-0035
+  - tank-0012
+  - tank-0026
+  - tank-0041
+  - tank-0007
+  - tank-0046
+  - tank-0020
+  name: tank-0450
+- addnode:
+  - tank-0046
+  - tank-0031
+  - tank-0028
+  - tank-0016
+  - tank-0035
+  - tank-0021
+  - tank-0040
+  - tank-0018
+  name: tank-0451
+- addnode:
+  - tank-0015
+  - tank-0029
+  - tank-0043
+  - tank-0034
+  - tank-0023
+  - tank-0022
+  - tank-0048
+  - tank-0045
+  name: tank-0452
+- addnode:
+  - tank-0007
+  - tank-0032
+  - tank-0037
+  - tank-0039
+  - tank-0020
+  - tank-0017
+  - tank-0033
+  - tank-0011
+  name: tank-0453
+- addnode:
+  - tank-0009
+  - tank-0040
+  - tank-0013
+  - tank-0048
+  - tank-0031
+  - tank-0012
+  - tank-0026
+  - tank-0018
+  name: tank-0454
+- addnode:
+  - tank-0028
+  - tank-0042
+  - tank-0020
+  - tank-0009
+  - tank-0001
+  - tank-0019
+  - tank-0037
+  - tank-0031
+  name: tank-0455
+- addnode:
+  - tank-0012
+  - tank-0040
+  - tank-0047
+  - tank-0018
+  - tank-0021
+  - tank-0001
+  - tank-0041
+  - tank-0016
+  name: tank-0456
+- addnode:
+  - tank-0030
+  - tank-0037
+  - tank-0039
+  - tank-0007
+  - tank-0026
+  - tank-0045
+  - tank-0049
+  - tank-0017
+  name: tank-0457
+- addnode:
+  - tank-0021
+  - tank-0019
+  - tank-0010
+  - tank-0030
+  - tank-0040
+  - tank-0048
+  - tank-0007
+  - tank-0039
+  name: tank-0458
+- addnode:
+  - tank-0038
+  - tank-0005
+  - tank-0023
+  - tank-0024
+  - tank-0032
+  - tank-0012
+  - tank-0039
+  - tank-0027
+  name: tank-0459
+- addnode:
+  - tank-0019
+  - tank-0022
+  - tank-0012
+  - tank-0026
+  - tank-0043
+  - tank-0027
+  - tank-0021
+  - tank-0000
+  name: tank-0460
+- addnode:
+  - tank-0036
+  - tank-0012
+  - tank-0008
+  - tank-0027
+  - tank-0034
+  - tank-0047
+  - tank-0022
+  - tank-0037
+  name: tank-0461
+- addnode:
+  - tank-0014
+  - tank-0025
+  - tank-0031
+  - tank-0012
+  - tank-0020
+  - tank-0043
+  - tank-0028
+  - tank-0035
+  name: tank-0462
+- addnode:
+  - tank-0047
+  - tank-0040
+  - tank-0010
+  - tank-0006
+  - tank-0046
+  - tank-0015
+  - tank-0038
+  - tank-0017
+  name: tank-0463
+- addnode:
+  - tank-0029
+  - tank-0027
+  - tank-0049
+  - tank-0040
+  - tank-0020
+  - tank-0024
+  - tank-0009
+  - tank-0026
+  name: tank-0464
+- addnode:
+  - tank-0002
+  - tank-0008
+  - tank-0048
+  - tank-0033
+  - tank-0023
+  - tank-0036
+  - tank-0006
+  - tank-0049
+  name: tank-0465
+- addnode:
+  - tank-0032
+  - tank-0028
+  - tank-0040
+  - tank-0042
+  - tank-0012
+  - tank-0049
+  - tank-0038
+  - tank-0005
+  name: tank-0466
+- addnode:
+  - tank-0044
+  - tank-0031
+  - tank-0041
+  - tank-0015
+  - tank-0012
+  - tank-0017
+  - tank-0008
+  - tank-0007
+  name: tank-0467
+- addnode:
+  - tank-0025
+  - tank-0030
+  - tank-0011
+  - tank-0018
+  - tank-0023
+  - tank-0037
+  - tank-0034
+  - tank-0012
+  name: tank-0468
+- addnode:
+  - tank-0036
+  - tank-0026
+  - tank-0017
+  - tank-0006
+  - tank-0011
+  - tank-0038
+  - tank-0043
+  - tank-0000
+  name: tank-0469
+- addnode:
+  - tank-0016
+  - tank-0026
+  - tank-0031
+  - tank-0033
+  - tank-0014
+  - tank-0048
+  - tank-0046
+  - tank-0007
+  name: tank-0470
+- addnode:
+  - tank-0005
+  - tank-0036
+  - tank-0014
+  - tank-0049
+  - tank-0048
+  - tank-0043
+  - tank-0009
+  - tank-0037
+  name: tank-0471
+- addnode:
+  - tank-0039
+  - tank-0038
+  - tank-0040
+  - tank-0018
+  - tank-0007
+  - tank-0003
+  - tank-0026
+  - tank-0030
+  name: tank-0472
+- addnode:
+  - tank-0048
+  - tank-0012
+  - tank-0039
+  - tank-0016
+  - tank-0035
+  - tank-0044
+  - tank-0009
+  - tank-0041
+  name: tank-0473
+- addnode:
+  - tank-0045
+  - tank-0007
+  - tank-0019
+  - tank-0016
+  - tank-0030
+  - tank-0002
+  - tank-0010
+  - tank-0024
+  name: tank-0474
+- addnode:
+  - tank-0008
+  - tank-0027
+  - tank-0042
+  - tank-0046
+  - tank-0035
+  - tank-0026
+  - tank-0039
+  - tank-0036
+  name: tank-0475
+- addnode:
+  - tank-0028
+  - tank-0004
+  - tank-0023
+  - tank-0007
+  - tank-0030
+  - tank-0005
+  - tank-0012
+  - tank-0000
+  name: tank-0476
+- addnode:
+  - tank-0026
+  - tank-0000
+  - tank-0015
+  - tank-0013
+  - tank-0041
+  - tank-0029
+  - tank-0034
+  - tank-0040
+  name: tank-0477
+- addnode:
+  - tank-0009
+  - tank-0042
+  - tank-0032
+  - tank-0036
+  - tank-0020
+  - tank-0049
+  - tank-0002
+  - tank-0038
+  name: tank-0478
+- addnode:
+  - tank-0044
+  - tank-0041
+  - tank-0030
+  - tank-0036
+  - tank-0019
+  - tank-0007
+  - tank-0033
+  - tank-0004
+  name: tank-0479
+- addnode:
+  - tank-0019
+  - tank-0015
+  - tank-0006
+  - tank-0027
+  - tank-0008
+  - tank-0004
+  - tank-0014
+  - tank-0020
+  name: tank-0480
+- addnode:
+  - tank-0010
+  - tank-0001
+  - tank-0035
+  - tank-0045
+  - tank-0013
+  - tank-0026
+  - tank-0011
+  - tank-0042
+  name: tank-0481
+- addnode:
+  - tank-0031
+  - tank-0039
+  - tank-0011
+  - tank-0044
+  - tank-0014
+  - tank-0025
+  - tank-0042
+  - tank-0007
+  name: tank-0482
+- addnode:
+  - tank-0040
+  - tank-0006
+  - tank-0049
+  - tank-0002
+  - tank-0026
+  - tank-0031
+  - tank-0041
+  - tank-0000
+  name: tank-0483
+- addnode:
+  - tank-0024
+  - tank-0018
+  - tank-0036
+  - tank-0006
+  - tank-0022
+  - tank-0048
+  - tank-0049
+  - tank-0035
+  name: tank-0484
+- addnode:
+  - tank-0003
+  - tank-0016
+  - tank-0018
+  - tank-0002
+  - tank-0005
+  - tank-0044
+  - tank-0026
+  - tank-0037
+  name: tank-0485
+- addnode:
+  - tank-0042
+  - tank-0013
+  - tank-0004
+  - tank-0036
+  - tank-0049
+  - tank-0020
+  - tank-0007
+  - tank-0022
+  name: tank-0486
+- addnode:
+  - tank-0039
+  - tank-0000
+  - tank-0016
+  - tank-0012
+  - tank-0045
+  - tank-0047
+  - tank-0028
+  - tank-0026
+  name: tank-0487
+- addnode:
+  - tank-0049
+  - tank-0041
+  - tank-0019
+  - tank-0016
+  - tank-0003
+  - tank-0004
+  - tank-0015
+  - tank-0017
+  name: tank-0488
+- addnode:
+  - tank-0003
+  - tank-0030
+  - tank-0025
+  - tank-0028
+  - tank-0033
+  - tank-0041
+  - tank-0043
+  - tank-0039
+  name: tank-0489
+- addnode:
+  - tank-0017
+  - tank-0016
+  - tank-0010
+  - tank-0039
+  - tank-0037
+  - tank-0000
+  - tank-0019
+  - tank-0005
+  name: tank-0490
+- addnode:
+  - tank-0006
+  - tank-0037
+  - tank-0011
+  - tank-0040
+  - tank-0019
+  - tank-0022
+  - tank-0001
+  - tank-0042
+  name: tank-0491
+- addnode:
+  - tank-0021
+  - tank-0019
+  - tank-0007
+  - tank-0022
+  - tank-0049
+  - tank-0020
+  - tank-0045
+  - tank-0041
+  name: tank-0492
+- addnode:
+  - tank-0049
+  - tank-0012
+  - tank-0006
+  - tank-0035
+  - tank-0010
+  - tank-0030
+  - tank-0041
+  - tank-0040
+  name: tank-0493
+- addnode:
+  - tank-0045
+  - tank-0007
+  - tank-0048
+  - tank-0033
+  - tank-0016
+  - tank-0020
+  - tank-0043
+  - tank-0001
+  name: tank-0494
+- addnode:
+  - tank-0020
+  - tank-0033
+  - tank-0015
+  - tank-0037
+  - tank-0024
+  - tank-0010
+  - tank-0021
+  - tank-0011
+  name: tank-0495
+- addnode:
+  - tank-0018
+  - tank-0009
+  - tank-0036
+  - tank-0025
+  - tank-0003
+  - tank-0022
+  - tank-0040
+  - tank-0037
+  name: tank-0496
+- addnode:
+  - tank-0026
+  - tank-0021
+  - tank-0039
+  - tank-0048
+  - tank-0023
+  - tank-0009
+  - tank-0004
+  - tank-0010
+  name: tank-0497
+- addnode:
+  - tank-0010
+  - tank-0022
+  - tank-0028
+  - tank-0046
+  - tank-0012
+  - tank-0005
+  - tank-0021
+  - tank-0023
+  name: tank-0498
+- addnode:
+  - tank-0030
+  - tank-0011
+  - tank-0049
+  - tank-0025
+  - tank-0047
+  - tank-0029
+  - tank-0023
+  - tank-0002
+  name: tank-0499
