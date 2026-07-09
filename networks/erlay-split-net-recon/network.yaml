@@ -1,0 +1,1898 @@
+caddy:
+  enabled: false
+fork_observer:
+  configQueryInterval: 5
+  enabled: false
+nodes:
+- name: tank-0000
+  addnode:
+  - tank-0054
+  - tank-0029
+  - tank-0058
+  - tank-0036
+  - tank-0001
+  - tank-0021
+  - tank-0045
+  - tank-0028
+  addconnection:
+  - to: tank-0025
+    type: outbound-full-recon
+  - to: tank-0035
+    type: outbound-full-recon
+  - to: tank-0049
+    type: outbound-full-recon
+  - to: tank-0002
+    type: outbound-full-recon
+- name: tank-0001
+  addnode:
+  - tank-0045
+  - tank-0037
+  - tank-0021
+  - tank-0029
+  - tank-0069
+  - tank-0008
+  - tank-0007
+  - tank-0026
+  addconnection:
+  - to: tank-0025
+    type: outbound-full-recon
+  - to: tank-0024
+    type: outbound-full-recon
+  - to: tank-0018
+    type: outbound-full-recon
+  - to: tank-0035
+    type: outbound-full-recon
+- name: tank-0002
+  addnode:
+  - tank-0013
+  - tank-0046
+  - tank-0045
+  - tank-0034
+  - tank-0006
+  - tank-0059
+  - tank-0035
+  - tank-0008
+  addconnection:
+  - to: tank-0067
+    type: outbound-full-recon
+  - to: tank-0049
+    type: outbound-full-recon
+  - to: tank-0050
+    type: outbound-full-recon
+  - to: tank-0054
+    type: outbound-full-recon
+- name: tank-0003
+  addnode:
+  - tank-0049
+  - tank-0011
+  - tank-0038
+  - tank-0047
+  - tank-0025
+  - tank-0009
+  - tank-0002
+  addconnection:
+  - to: tank-0027
+    type: outbound-full-recon
+  - to: tank-0037
+    type: outbound-full-recon
+  - to: tank-0036
+    type: outbound-full-recon
+  - to: tank-0054
+    type: outbound-full-recon
+- name: tank-0004
+  addnode:
+  - tank-0030
+  - tank-0038
+  - tank-0011
+  - tank-0069
+  - tank-0013
+  - tank-0049
+  - tank-0018
+  - tank-0066
+  addconnection:
+  - to: tank-0016
+    type: outbound-full-recon
+  - to: tank-0046
+    type: outbound-full-recon
+  - to: tank-0044
+    type: outbound-full-recon
+  - to: tank-0067
+    type: outbound-full-recon
+- name: tank-0005
+  addnode:
+  - tank-0047
+  - tank-0021
+  - tank-0048
+  - tank-0046
+  - tank-0027
+  - tank-0035
+  - tank-0045
+  - tank-0060
+  addconnection:
+  - to: tank-0012
+    type: outbound-full-recon
+  - to: tank-0055
+    type: outbound-full-recon
+  - to: tank-0006
+    type: outbound-full-recon
+  - to: tank-0094
+    type: outbound-full-recon
+- name: tank-0006
+  addnode:
+  - tank-0011
+  - tank-0023
+  - tank-0033
+  - tank-0022
+  - tank-0061
+  - tank-0026
+  - tank-0019
+  - tank-0065
+  addconnection:
+  - to: tank-0025
+    type: outbound-full-recon
+  - to: tank-0045
+    type: outbound-full-recon
+  - to: tank-0056
+    type: outbound-full-recon
+  - to: tank-0054
+    type: outbound-full-recon
+- name: tank-0007
+  addnode:
+  - tank-0030
+  - tank-0043
+  - tank-0009
+  - tank-0031
+  - tank-0005
+  - tank-0053
+  - tank-0022
+  - tank-0027
+  addconnection:
+  - to: tank-0055
+    type: outbound-full-recon
+  - to: tank-0033
+    type: outbound-full-recon
+  - to: tank-0008
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+- name: tank-0008
+  addnode:
+  - tank-0037
+  - tank-0011
+  - tank-0030
+  - tank-0043
+  - tank-0016
+  - tank-0044
+  - tank-0034
+  - tank-0028
+  addconnection:
+  - to: tank-0022
+    type: outbound-full-recon
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0029
+    type: outbound-full-recon
+  - to: tank-0021
+    type: outbound-full-recon
+- name: tank-0009
+  addnode:
+  - tank-0061
+  - tank-0021
+  - tank-0036
+  - tank-0020
+  - tank-0018
+  - tank-0050
+  - tank-0038
+  - tank-0037
+  addconnection:
+  - to: tank-0065
+    type: outbound-full-recon
+  - to: tank-0016
+    type: outbound-full-recon
+  - to: tank-0012
+    type: outbound-full-recon
+  - to: tank-0001
+    type: outbound-full-recon
+- name: tank-0010
+  addnode:
+  - tank-0034
+  - tank-0055
+  - tank-0052
+  - tank-0047
+  - tank-0029
+  - tank-0018
+  - tank-0033
+  - tank-0032
+  addconnection:
+  - to: tank-0002
+    type: outbound-full-recon
+  - to: tank-0020
+    type: outbound-full-recon
+  - to: tank-0042
+    type: outbound-full-recon
+  - to: tank-0059
+    type: outbound-full-recon
+- name: tank-0011
+  addnode:
+  - tank-0016
+  - tank-0010
+  - tank-0060
+  - tank-0012
+  - tank-0014
+  - tank-0045
+  - tank-0015
+  - tank-0055
+  addconnection:
+  - to: tank-0065
+    type: outbound-full-recon
+  - to: tank-0007
+    type: outbound-full-recon
+  - to: tank-0041
+    type: outbound-full-recon
+  - to: tank-0038
+    type: outbound-full-recon
+- name: tank-0012
+  addnode:
+  - tank-0056
+  - tank-0008
+  - tank-0051
+  - tank-0050
+  - tank-0061
+  - tank-0035
+  - tank-0018
+  - tank-0037
+  addconnection:
+  - to: tank-0059
+    type: outbound-full-recon
+  - to: tank-0053
+    type: outbound-full-recon
+  - to: tank-0017
+    type: outbound-full-recon
+  - to: tank-0066
+    type: outbound-full-recon
+- name: tank-0013
+  addnode:
+  - tank-0001
+  - tank-0017
+  - tank-0037
+  - tank-0046
+  - tank-0009
+  - tank-0021
+  - tank-0030
+  addconnection:
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0034
+    type: outbound-full-recon
+  - to: tank-0044
+    type: outbound-full-recon
+  - to: tank-0035
+    type: outbound-full-recon
+- name: tank-0014
+  addnode:
+  - tank-0022
+  - tank-0060
+  - tank-0000
+  - tank-0035
+  - tank-0024
+  - tank-0034
+  - tank-0068
+  addconnection:
+  - to: tank-0019
+    type: outbound-full-recon
+  - to: tank-0010
+    type: outbound-full-recon
+  - to: tank-0053
+    type: outbound-full-recon
+  - to: tank-0056
+    type: outbound-full-recon
+- name: tank-0015
+  addnode:
+  - tank-0014
+  - tank-0040
+  - tank-0066
+  - tank-0027
+  - tank-0021
+  - tank-0025
+  - tank-0050
+  - tank-0010
+  addconnection:
+  - to: tank-0000
+    type: outbound-full-recon
+  - to: tank-0068
+    type: outbound-full-recon
+  - to: tank-0057
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+- name: tank-0016
+  addnode:
+  - tank-0000
+  - tank-0044
+  - tank-0065
+  - tank-0002
+  - tank-0007
+  - tank-0062
+  - tank-0026
+  - tank-0059
+  addconnection:
+  - to: tank-0013
+    type: outbound-full-recon
+  - to: tank-0040
+    type: outbound-full-recon
+  - to: tank-0022
+    type: outbound-full-recon
+  - to: tank-0019
+    type: outbound-full-recon
+- name: tank-0017
+  addnode:
+  - tank-0041
+  - tank-0032
+  - tank-0007
+  - tank-0068
+  - tank-0010
+  - tank-0005
+  - tank-0048
+  addconnection:
+  - to: tank-0064
+    type: outbound-full-recon
+  - to: tank-0056
+    type: outbound-full-recon
+  - to: tank-0044
+    type: outbound-full-recon
+  - to: tank-0039
+    type: outbound-full-recon
+- name: tank-0018
+  addnode:
+  - tank-0067
+  - tank-0011
+  - tank-0069
+  - tank-0053
+  - tank-0039
+  - tank-0054
+  - tank-0068
+  - tank-0063
+  addconnection:
+  - to: tank-0005
+    type: outbound-full-recon
+  - to: tank-0047
+    type: outbound-full-recon
+  - to: tank-0022
+    type: outbound-full-recon
+  - to: tank-0013
+    type: outbound-full-recon
+- name: tank-0019
+  addnode:
+  - tank-0062
+  - tank-0023
+  - tank-0035
+  - tank-0056
+  - tank-0029
+  - tank-0061
+  - tank-0036
+  - tank-0050
+  addconnection:
+  - to: tank-0038
+    type: outbound-full-recon
+  - to: tank-0009
+    type: outbound-full-recon
+  - to: tank-0067
+    type: outbound-full-recon
+  - to: tank-0055
+    type: outbound-full-recon
+- name: tank-0020
+  addnode:
+  - tank-0027
+  - tank-0041
+  - tank-0053
+  - tank-0049
+  - tank-0058
+  - tank-0059
+  - tank-0035
+  - tank-0030
+  addconnection:
+  - to: tank-0044
+    type: outbound-full-recon
+  - to: tank-0046
+    type: outbound-full-recon
+  - to: tank-0050
+    type: outbound-full-recon
+  - to: tank-0024
+    type: outbound-full-recon
+- name: tank-0021
+  addnode:
+  - tank-0011
+  - tank-0022
+  - tank-0020
+  - tank-0007
+  - tank-0028
+  - tank-0003
+  - tank-0044
+  - tank-0042
+  addconnection:
+  - to: tank-0067
+    type: outbound-full-recon
+  - to: tank-0043
+    type: outbound-full-recon
+  - to: tank-0056
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+- name: tank-0022
+  addnode:
+  - tank-0034
+  - tank-0033
+  - tank-0000
+  - tank-0004
+  - tank-0050
+  - tank-0045
+  - tank-0003
+  - tank-0017
+  addconnection:
+  - to: tank-0049
+    type: outbound-full-recon
+  - to: tank-0042
+    type: outbound-full-recon
+  - to: tank-0053
+    type: outbound-full-recon
+  - to: tank-0043
+    type: outbound-full-recon
+- name: tank-0023
+  addnode:
+  - tank-0009
+  - tank-0004
+  - tank-0045
+  - tank-0010
+  - tank-0035
+  - tank-0016
+  - tank-0018
+  - tank-0067
+  addconnection:
+  - to: tank-0014
+    type: outbound-full-recon
+  - to: tank-0063
+    type: outbound-full-recon
+  - to: tank-0041
+    type: outbound-full-recon
+  - to: tank-0039
+    type: outbound-full-recon
+- name: tank-0024
+  addnode:
+  - tank-0064
+  - tank-0029
+  - tank-0017
+  - tank-0062
+  - tank-0033
+  - tank-0052
+  - tank-0032
+  - tank-0053
+  addconnection:
+  - to: tank-0019
+    type: outbound-full-recon
+  - to: tank-0067
+    type: outbound-full-recon
+  - to: tank-0018
+    type: outbound-full-recon
+  - to: tank-0054
+    type: outbound-full-recon
+- name: tank-0025
+  addnode:
+  - tank-0055
+  - tank-0027
+  - tank-0013
+  - tank-0067
+  - tank-0045
+  - tank-0030
+  - tank-0024
+  - tank-0064
+  addconnection:
+  - to: tank-0023
+    type: outbound-full-recon
+  - to: tank-0069
+    type: outbound-full-recon
+  - to: tank-0044
+    type: outbound-full-recon
+  - to: tank-0041
+    type: outbound-full-recon
+- name: tank-0026
+  addnode:
+  - tank-0056
+  - tank-0063
+  - tank-0008
+  - tank-0047
+  - tank-0045
+  - tank-0065
+  - tank-0067
+  - tank-0004
+  addconnection:
+  - to: tank-0049
+    type: outbound-full-recon
+  - to: tank-0020
+    type: outbound-full-recon
+  - to: tank-0022
+    type: outbound-full-recon
+  - to: tank-0035
+    type: outbound-full-recon
+- name: tank-0027
+  addnode:
+  - tank-0057
+  - tank-0052
+  - tank-0026
+  - tank-0069
+  - tank-0061
+  - tank-0008
+  - tank-0018
+  - tank-0014
+  addconnection:
+  - to: tank-0006
+    type: outbound-full-recon
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0030
+    type: outbound-full-recon
+  - to: tank-0023
+    type: outbound-full-recon
+- name: tank-0028
+  addnode:
+  - tank-0027
+  - tank-0061
+  - tank-0019
+  - tank-0031
+  - tank-0013
+  - tank-0067
+  - tank-0033
+  addconnection:
+  - to: tank-0022
+    type: outbound-full-recon
+  - to: tank-0026
+    type: outbound-full-recon
+  - to: tank-0025
+    type: outbound-full-recon
+  - to: tank-0043
+    type: outbound-full-recon
+- name: tank-0029
+  addnode:
+  - tank-0037
+  - tank-0061
+  - tank-0065
+  - tank-0006
+  - tank-0034
+  - tank-0057
+  - tank-0068
+  - tank-0060
+  addconnection:
+  - to: tank-0009
+    type: outbound-full-recon
+  - to: tank-0013
+    type: outbound-full-recon
+  - to: tank-0014
+    type: outbound-full-recon
+  - to: tank-0020
+    type: outbound-full-recon
+- name: tank-0030
+  addnode:
+  - tank-0042
+  - tank-0009
+  - tank-0003
+  - tank-0048
+  - tank-0041
+  - tank-0060
+  - tank-0000
+  - tank-0006
+  addconnection:
+  - to: tank-0036
+    type: outbound-full-recon
+  - to: tank-0064
+    type: outbound-full-recon
+  - to: tank-0017
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+- name: tank-0031
+  addnode:
+  - tank-0033
+  - tank-0022
+  - tank-0055
+  - tank-0065
+  - tank-0069
+  - tank-0014
+  - tank-0058
+  addconnection:
+  - to: tank-0015
+    type: outbound-full-recon
+  - to: tank-0004
+    type: outbound-full-recon
+  - to: tank-0030
+    type: outbound-full-recon
+  - to: tank-0024
+    type: outbound-full-recon
+- name: tank-0032
+  addnode:
+  - tank-0055
+  - tank-0007
+  - tank-0023
+  - tank-0027
+  - tank-0000
+  - tank-0066
+  - tank-0018
+  - tank-0054
+  addconnection:
+  - to: tank-0044
+    type: outbound-full-recon
+  - to: tank-0038
+    type: outbound-full-recon
+  - to: tank-0035
+    type: outbound-full-recon
+  - to: tank-0004
+    type: outbound-full-recon
+- name: tank-0033
+  addnode:
+  - tank-0057
+  - tank-0036
+  - tank-0020
+  - tank-0034
+  - tank-0051
+  - tank-0053
+  - tank-0069
+  - tank-0042
+  addconnection:
+  - to: tank-0016
+    type: outbound-full-recon
+  - to: tank-0037
+    type: outbound-full-recon
+  - to: tank-0032
+    type: outbound-full-recon
+  - to: tank-0067
+    type: outbound-full-recon
+- name: tank-0034
+  addnode:
+  - tank-0050
+  - tank-0053
+  - tank-0039
+  - tank-0012
+  - tank-0016
+  - tank-0023
+  - tank-0017
+  - tank-0004
+  addconnection:
+  - to: tank-0055
+    type: outbound-full-recon
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0001
+    type: outbound-full-recon
+  - to: tank-0087
+    type: outbound-full-recon
+- name: tank-0035
+  addnode:
+  - tank-0045
+  - tank-0055
+  - tank-0042
+  - tank-0004
+  - tank-0068
+  - tank-0027
+  - tank-0066
+  addconnection:
+  - to: tank-0069
+    type: outbound-full-recon
+  - to: tank-0054
+    type: outbound-full-recon
+  - to: tank-0039
+    type: outbound-full-recon
+  - to: tank-0048
+    type: outbound-full-recon
+- name: tank-0036
+  addnode:
+  - tank-0007
+  - tank-0066
+  - tank-0037
+  - tank-0063
+  - tank-0059
+  - tank-0038
+  - tank-0012
+  - tank-0004
+  addconnection:
+  - to: tank-0001
+    type: outbound-full-recon
+  - to: tank-0029
+    type: outbound-full-recon
+  - to: tank-0026
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+- name: tank-0037
+  addnode:
+  - tank-0069
+  - tank-0040
+  - tank-0006
+  - tank-0062
+  - tank-0016
+  - tank-0005
+  - tank-0046
+  - tank-0064
+  addconnection:
+  - to: tank-0035
+    type: outbound-full-recon
+  - to: tank-0039
+    type: outbound-full-recon
+  - to: tank-0050
+    type: outbound-full-recon
+  - to: tank-0066
+    type: outbound-full-recon
+- name: tank-0038
+  addnode:
+  - tank-0033
+  - tank-0056
+  - tank-0010
+  - tank-0065
+  - tank-0061
+  - tank-0041
+  - tank-0018
+  - tank-0042
+  addconnection:
+  - to: tank-0064
+    type: outbound-full-recon
+  - to: tank-0048
+    type: outbound-full-recon
+  - to: tank-0069
+    type: outbound-full-recon
+  - to: tank-0053
+    type: outbound-full-recon
+- name: tank-0039
+  addnode:
+  - tank-0005
+  - tank-0010
+  - tank-0056
+  - tank-0043
+  - tank-0062
+  - tank-0016
+  - tank-0013
+  - tank-0045
+  addconnection:
+  - to: tank-0020
+    type: outbound-full-recon
+  - to: tank-0044
+    type: outbound-full-recon
+  - to: tank-0024
+    type: outbound-full-recon
+  - to: tank-0036
+    type: outbound-full-recon
+- name: tank-0040
+  addnode:
+  - tank-0043
+  - tank-0031
+  - tank-0034
+  - tank-0053
+  - tank-0008
+  - tank-0045
+  - tank-0044
+  - tank-0020
+  addconnection:
+  - to: tank-0038
+    type: outbound-full-recon
+  - to: tank-0001
+    type: outbound-full-recon
+  - to: tank-0028
+    type: outbound-full-recon
+  - to: tank-0025
+    type: outbound-full-recon
+- name: tank-0041
+  addnode:
+  - tank-0063
+  - tank-0045
+  - tank-0064
+  - tank-0053
+  - tank-0067
+  - tank-0004
+  - tank-0000
+  - tank-0032
+  addconnection:
+  - to: tank-0056
+    type: outbound-full-recon
+  - to: tank-0057
+    type: outbound-full-recon
+  - to: tank-0068
+    type: outbound-full-recon
+  - to: tank-0034
+    type: outbound-full-recon
+- name: tank-0042
+  addnode:
+  - tank-0012
+  - tank-0004
+  - tank-0039
+  - tank-0013
+  - tank-0036
+  - tank-0016
+  - tank-0008
+  - tank-0023
+  addconnection:
+  - to: tank-0066
+    type: outbound-full-recon
+  - to: tank-0015
+    type: outbound-full-recon
+  - to: tank-0046
+    type: outbound-full-recon
+  - to: tank-0011
+    type: outbound-full-recon
+- name: tank-0043
+  addnode:
+  - tank-0010
+  - tank-0033
+  - tank-0025
+  - tank-0020
+  - tank-0012
+  - tank-0030
+  - tank-0058
+  addconnection:
+  - to: tank-0054
+    type: outbound-full-recon
+  - to: tank-0048
+    type: outbound-full-recon
+  - to: tank-0001
+    type: outbound-full-recon
+  - to: tank-0036
+    type: outbound-full-recon
+- name: tank-0044
+  addnode:
+  - tank-0042
+  - tank-0001
+  - tank-0047
+  - tank-0057
+  - tank-0038
+  - tank-0022
+  - tank-0067
+  - tank-0006
+  addconnection:
+  - to: tank-0056
+    type: outbound-full-recon
+  - to: tank-0055
+    type: outbound-full-recon
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0002
+    type: outbound-full-recon
+- name: tank-0045
+  addnode:
+  - tank-0013
+  - tank-0021
+  - tank-0012
+  - tank-0010
+  - tank-0061
+  - tank-0049
+  - tank-0014
+  - tank-0024
+  addconnection:
+  - to: tank-0015
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+  - to: tank-0048
+    type: outbound-full-recon
+  - to: tank-0018
+    type: outbound-full-recon
+- name: tank-0046
+  addnode:
+  - tank-0040
+  - tank-0029
+  - tank-0050
+  - tank-0024
+  - tank-0016
+  - tank-0048
+  - tank-0044
+  - tank-0059
+  addconnection:
+  - to: tank-0038
+    type: outbound-full-recon
+  - to: tank-0015
+    type: outbound-full-recon
+  - to: tank-0006
+    type: outbound-full-recon
+  - to: tank-0022
+    type: outbound-full-recon
+- name: tank-0047
+  addnode:
+  - tank-0037
+  - tank-0036
+  - tank-0035
+  - tank-0019
+  - tank-0063
+  - tank-0064
+  - tank-0060
+  - tank-0004
+  addconnection:
+  - to: tank-0031
+    type: outbound-full-recon
+  - to: tank-0027
+    type: outbound-full-recon
+  - to: tank-0017
+    type: outbound-full-recon
+  - to: tank-0089
+    type: outbound-full-recon
+- name: tank-0048
+  addnode:
+  - tank-0012
+  - tank-0059
+  - tank-0058
+  - tank-0019
+  - tank-0002
+  - tank-0000
+  - tank-0023
+  - tank-0054
+  addconnection:
+  - to: tank-0039
+    type: outbound-full-recon
+  - to: tank-0027
+    type: outbound-full-recon
+  - to: tank-0028
+    type: outbound-full-recon
+  - to: tank-0068
+    type: outbound-full-recon
+- name: tank-0049
+  addnode:
+  - tank-0018
+  - tank-0036
+  - tank-0012
+  - tank-0052
+  - tank-0031
+  - tank-0038
+  - tank-0050
+  - tank-0030
+  addconnection:
+  - to: tank-0035
+    type: outbound-full-recon
+  - to: tank-0025
+    type: outbound-full-recon
+  - to: tank-0039
+    type: outbound-full-recon
+  - to: tank-0024
+    type: outbound-full-recon
+- name: tank-0050
+  addnode:
+  - tank-0041
+  - tank-0000
+  - tank-0007
+  - tank-0004
+  - tank-0065
+  - tank-0053
+  - tank-0010
+  - tank-0040
+  addconnection:
+  - to: tank-0011
+    type: outbound-full-recon
+  - to: tank-0045
+    type: outbound-full-recon
+  - to: tank-0003
+    type: outbound-full-recon
+  - to: tank-0068
+    type: outbound-full-recon
+- name: tank-0051
+  addnode:
+  - tank-0004
+  - tank-0049
+  - tank-0019
+  - tank-0058
+  - tank-0008
+  - tank-0002
+  - tank-0020
+  - tank-0024
+  addconnection:
+  - to: tank-0042
+    type: outbound-full-recon
+  - to: tank-0005
+    type: outbound-full-recon
+  - to: tank-0029
+    type: outbound-full-recon
+  - to: tank-0018
+    type: outbound-full-recon
+- name: tank-0052
+  addnode:
+  - tank-0005
+  - tank-0048
+  - tank-0014
+  - tank-0046
+  - tank-0016
+  - tank-0045
+  - tank-0006
+  - tank-0023
+  addconnection:
+  - to: tank-0054
+    type: outbound-full-recon
+  - to: tank-0004
+    type: outbound-full-recon
+  - to: tank-0064
+    type: outbound-full-recon
+  - to: tank-0002
+    type: outbound-full-recon
+- name: tank-0053
+  addnode:
+  - tank-0059
+  - tank-0043
+  - tank-0066
+  - tank-0065
+  - tank-0030
+  - tank-0047
+  - tank-0057
+  - tank-0010
+  addconnection:
+  - to: tank-0001
+    type: outbound-full-recon
+  - to: tank-0021
+    type: outbound-full-recon
+  - to: tank-0016
+    type: outbound-full-recon
+  - to: tank-0060
+    type: outbound-full-recon
+- name: tank-0054
+  addnode:
+  - tank-0033
+  - tank-0022
+  - tank-0067
+  - tank-0056
+  - tank-0066
+  - tank-0012
+  - tank-0061
+  - tank-0028
+  addconnection:
+  - to: tank-0014
+    type: outbound-full-recon
+  - to: tank-0021
+    type: outbound-full-recon
+  - to: tank-0013
+    type: outbound-full-recon
+  - to: tank-0042
+    type: outbound-full-recon
+- name: tank-0055
+  addnode:
+  - tank-0001
+  - tank-0013
+  - tank-0053
+  - tank-0066
+  - tank-0023
+  - tank-0057
+  - tank-0029
+  - tank-0058
+  addconnection:
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0012
+    type: outbound-full-recon
+  - to: tank-0051
+    type: outbound-full-recon
+  - to: tank-0020
+    type: outbound-full-recon
+- name: tank-0056
+  addnode:
+  - tank-0047
+  - tank-0062
+  - tank-0052
+  - tank-0058
+  - tank-0016
+  - tank-0018
+  - tank-0010
+  - tank-0057
+  addconnection:
+  - to: tank-0042
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+  - to: tank-0025
+    type: outbound-full-recon
+  - to: tank-0033
+    type: outbound-full-recon
+- name: tank-0057
+  addnode:
+  - tank-0048
+  - tank-0006
+  - tank-0024
+  - tank-0063
+  - tank-0002
+  - tank-0062
+  - tank-0032
+  - tank-0014
+  addconnection:
+  - to: tank-0012
+    type: outbound-full-recon
+  - to: tank-0050
+    type: outbound-full-recon
+  - to: tank-0065
+    type: outbound-full-recon
+  - to: tank-0096
+    type: outbound-full-recon
+- name: tank-0058
+  addnode:
+  - tank-0013
+  - tank-0061
+  - tank-0067
+  - tank-0032
+  - tank-0024
+  - tank-0021
+  - tank-0068
+  - tank-0059
+  addconnection:
+  - to: tank-0057
+    type: outbound-full-recon
+  - to: tank-0008
+    type: outbound-full-recon
+  - to: tank-0064
+    type: outbound-full-recon
+  - to: tank-0069
+    type: outbound-full-recon
+- name: tank-0059
+  addnode:
+  - tank-0064
+  - tank-0015
+  - tank-0068
+  - tank-0001
+  - tank-0047
+  - tank-0013
+  - tank-0028
+  - tank-0024
+  addconnection:
+  - to: tank-0017
+    type: outbound-full-recon
+  - to: tank-0029
+    type: outbound-full-recon
+  - to: tank-0008
+    type: outbound-full-recon
+  - to: tank-0051
+    type: outbound-full-recon
+- name: tank-0060
+  addnode:
+  - tank-0020
+  - tank-0062
+  - tank-0004
+  - tank-0055
+  - tank-0069
+  - tank-0025
+  - tank-0046
+  - tank-0037
+  addconnection:
+  - to: tank-0001
+    type: outbound-full-recon
+  - to: tank-0024
+    type: outbound-full-recon
+  - to: tank-0045
+    type: outbound-full-recon
+  - to: tank-0056
+    type: outbound-full-recon
+- name: tank-0061
+  addnode:
+  - tank-0032
+  - tank-0052
+  - tank-0065
+  - tank-0042
+  - tank-0025
+  - tank-0001
+  - tank-0008
+  - tank-0020
+  addconnection:
+  - to: tank-0036
+    type: outbound-full-recon
+  - to: tank-0037
+    type: outbound-full-recon
+  - to: tank-0064
+    type: outbound-full-recon
+  - to: tank-0017
+    type: outbound-full-recon
+- name: tank-0062
+  addnode:
+  - tank-0011
+  - tank-0042
+  - tank-0017
+  - tank-0002
+  - tank-0006
+  - tank-0043
+  - tank-0030
+  - tank-0025
+  addconnection:
+  - to: tank-0005
+    type: outbound-full-recon
+  - to: tank-0058
+    type: outbound-full-recon
+  - to: tank-0067
+    type: outbound-full-recon
+  - to: tank-0063
+    type: outbound-full-recon
+- name: tank-0063
+  addnode:
+  - tank-0051
+  - tank-0055
+  - tank-0021
+  - tank-0029
+  - tank-0042
+  - tank-0034
+  - tank-0007
+  - tank-0025
+  addconnection:
+  - to: tank-0016
+    type: outbound-full-recon
+  - to: tank-0006
+    type: outbound-full-recon
+  - to: tank-0059
+    type: outbound-full-recon
+  - to: tank-0069
+    type: outbound-full-recon
+- name: tank-0064
+  addnode:
+  - tank-0063
+  - tank-0039
+  - tank-0012
+  - tank-0016
+  - tank-0002
+  - tank-0050
+  - tank-0029
+  - tank-0000
+  addconnection:
+  - to: tank-0026
+    type: outbound-full-recon
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0054
+    type: outbound-full-recon
+  - to: tank-0009
+    type: outbound-full-recon
+- name: tank-0065
+  addnode:
+  - tank-0039
+  - tank-0059
+  - tank-0040
+  - tank-0049
+  - tank-0054
+  - tank-0055
+  - tank-0063
+  - tank-0048
+  addconnection:
+  - to: tank-0062
+    type: outbound-full-recon
+  - to: tank-0002
+    type: outbound-full-recon
+  - to: tank-0033
+    type: outbound-full-recon
+  - to: tank-0058
+    type: outbound-full-recon
+- name: tank-0066
+  addnode:
+  - tank-0013
+  - tank-0025
+  - tank-0029
+  - tank-0005
+  - tank-0047
+  - tank-0023
+  - tank-0044
+  - tank-0022
+  addconnection:
+  - to: tank-0040
+    type: outbound-full-recon
+  - to: tank-0061
+    type: outbound-full-recon
+  - to: tank-0033
+    type: outbound-full-recon
+  - to: tank-0006
+    type: outbound-full-recon
+- name: tank-0067
+  addnode:
+  - tank-0049
+  - tank-0063
+  - tank-0007
+  - tank-0053
+  - tank-0020
+  - tank-0037
+  - tank-0064
+  - tank-0069
+  addconnection:
+  - to: tank-0048
+    type: outbound-full-recon
+  - to: tank-0061
+    type: outbound-full-recon
+  - to: tank-0034
+    type: outbound-full-recon
+  - to: tank-0000
+    type: outbound-full-recon
+- name: tank-0068
+  addnode:
+  - tank-0030
+  - tank-0023
+  - tank-0028
+  - tank-0049
+  - tank-0021
+  - tank-0040
+  - tank-0008
+  - tank-0012
+  addconnection:
+  - to: tank-0038
+    type: outbound-full-recon
+  - to: tank-0045
+    type: outbound-full-recon
+  - to: tank-0006
+    type: outbound-full-recon
+  - to: tank-0039
+    type: outbound-full-recon
+- name: tank-0069
+  addnode:
+  - tank-0030
+  - tank-0049
+  - tank-0028
+  - tank-0050
+  - tank-0054
+  - tank-0013
+  - tank-0046
+  - tank-0043
+  addconnection:
+  - to: tank-0032
+    type: outbound-full-recon
+  - to: tank-0059
+    type: outbound-full-recon
+  - to: tank-0042
+    type: outbound-full-recon
+  - to: tank-0066
+    type: outbound-full-recon
+- name: tank-0070
+  addnode:
+  - tank-0075
+  - tank-0084
+  - tank-0076
+  - tank-0094
+  - tank-0087
+  - tank-0091
+  - tank-0079
+  - tank-0090
+  addconnection:
+  - to: tank-0095
+    type: outbound-full-recon
+  - to: tank-0092
+    type: outbound-full-recon
+  - to: tank-0085
+    type: outbound-full-recon
+  - to: tank-0080
+    type: outbound-full-recon
+- name: tank-0071
+  addnode:
+  - tank-0096
+  - tank-0088
+  - tank-0095
+  - tank-0086
+  - tank-0085
+  - tank-0084
+  - tank-0089
+  - tank-0079
+  addconnection:
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0078
+    type: outbound-full-recon
+  - to: tank-0092
+    type: outbound-full-recon
+  - to: tank-0081
+    type: outbound-full-recon
+- name: tank-0072
+  addnode:
+  - tank-0081
+  - tank-0098
+  - tank-0078
+  - tank-0073
+  - tank-0079
+  - tank-0085
+  - tank-0097
+  - tank-0094
+  addconnection:
+  - to: tank-0070
+    type: outbound-full-recon
+  - to: tank-0083
+    type: outbound-full-recon
+  - to: tank-0071
+    type: outbound-full-recon
+  - to: tank-0080
+    type: outbound-full-recon
+- name: tank-0073
+  addnode:
+  - tank-0090
+  - tank-0091
+  - tank-0093
+  - tank-0084
+  - tank-0082
+  - tank-0070
+  - tank-0087
+  - tank-0095
+  addconnection:
+  - to: tank-0078
+    type: outbound-full-recon
+  - to: tank-0079
+    type: outbound-full-recon
+  - to: tank-0074
+    type: outbound-full-recon
+  - to: tank-0081
+    type: outbound-full-recon
+- name: tank-0074
+  addnode:
+  - tank-0076
+  - tank-0086
+  - tank-0077
+  - tank-0082
+  - tank-0079
+  - tank-0081
+  - tank-0095
+  - tank-0090
+  addconnection:
+  - to: tank-0070
+    type: outbound-full-recon
+  - to: tank-0092
+    type: outbound-full-recon
+  - to: tank-0097
+    type: outbound-full-recon
+  - to: tank-0088
+    type: outbound-full-recon
+- name: tank-0075
+  addnode:
+  - tank-0094
+  - tank-0080
+  - tank-0089
+  - tank-0071
+  - tank-0088
+  - tank-0078
+  - tank-0073
+  - tank-0079
+  addconnection:
+  - to: tank-0086
+    type: outbound-full-recon
+  - to: tank-0084
+    type: outbound-full-recon
+  - to: tank-0072
+    type: outbound-full-recon
+  - to: tank-0077
+    type: outbound-full-recon
+- name: tank-0076
+  addnode:
+  - tank-0096
+  - tank-0086
+  - tank-0088
+  - tank-0090
+  - tank-0080
+  - tank-0097
+  - tank-0093
+  - tank-0094
+  addconnection:
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0083
+    type: outbound-full-recon
+  - to: tank-0089
+    type: outbound-full-recon
+  - to: tank-0081
+    type: outbound-full-recon
+- name: tank-0077
+  addnode:
+  - tank-0086
+  - tank-0097
+  - tank-0070
+  - tank-0072
+  - tank-0081
+  - tank-0079
+  - tank-0084
+  - tank-0094
+  addconnection:
+  - to: tank-0095
+    type: outbound-full-recon
+  - to: tank-0090
+    type: outbound-full-recon
+  - to: tank-0071
+    type: outbound-full-recon
+  - to: tank-0078
+    type: outbound-full-recon
+- name: tank-0078
+  addnode:
+  - tank-0082
+  - tank-0094
+  - tank-0091
+  - tank-0084
+  - tank-0088
+  - tank-0090
+  - tank-0089
+  - tank-0096
+  addconnection:
+  - to: tank-0081
+    type: outbound-full-recon
+  - to: tank-0095
+    type: outbound-full-recon
+  - to: tank-0076
+    type: outbound-full-recon
+  - to: tank-0099
+    type: outbound-full-recon
+- name: tank-0079
+  addnode:
+  - tank-0090
+  - tank-0094
+  - tank-0087
+  - tank-0088
+  - tank-0091
+  - tank-0085
+  - tank-0086
+  - tank-0098
+  addconnection:
+  - to: tank-0095
+    type: outbound-full-recon
+  - to: tank-0097
+    type: outbound-full-recon
+  - to: tank-0099
+    type: outbound-full-recon
+  - to: tank-0076
+    type: outbound-full-recon
+- name: tank-0080
+  addnode:
+  - tank-0079
+  - tank-0073
+  - tank-0096
+  - tank-0078
+  - tank-0083
+  - tank-0098
+  - tank-0090
+  - tank-0077
+  addconnection:
+  - to: tank-0071
+    type: outbound-full-recon
+  - to: tank-0084
+    type: outbound-full-recon
+  - to: tank-0081
+    type: outbound-full-recon
+  - to: tank-0091
+    type: outbound-full-recon
+- name: tank-0081
+  addnode:
+  - tank-0079
+  - tank-0099
+  - tank-0097
+  - tank-0089
+  - tank-0082
+  - tank-0092
+  - tank-0090
+  - tank-0083
+  addconnection:
+  - to: tank-0070
+    type: outbound-full-recon
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0086
+    type: outbound-full-recon
+  - to: tank-0096
+    type: outbound-full-recon
+- name: tank-0082
+  addnode:
+  - tank-0075
+  - tank-0079
+  - tank-0084
+  - tank-0080
+  - tank-0086
+  - tank-0077
+  - tank-0097
+  - tank-0070
+  addconnection:
+  - to: tank-0083
+    type: outbound-full-recon
+  - to: tank-0072
+    type: outbound-full-recon
+  - to: tank-0091
+    type: outbound-full-recon
+  - to: tank-0094
+    type: outbound-full-recon
+- name: tank-0083
+  addnode:
+  - tank-0095
+  - tank-0090
+  - tank-0074
+  - tank-0078
+  - tank-0071
+  - tank-0099
+  - tank-0098
+  - tank-0079
+  addconnection:
+  - to: tank-0093
+    type: outbound-full-recon
+  - to: tank-0075
+    type: outbound-full-recon
+  - to: tank-0088
+    type: outbound-full-recon
+  - to: tank-0084
+    type: outbound-full-recon
+- name: tank-0084
+  addnode:
+  - tank-0099
+  - tank-0079
+  - tank-0097
+  - tank-0092
+  - tank-0076
+  - tank-0072
+  - tank-0086
+  - tank-0096
+  addconnection:
+  - to: tank-0098
+    type: outbound-full-recon
+  - to: tank-0089
+    type: outbound-full-recon
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0093
+    type: outbound-full-recon
+- name: tank-0085
+  addnode:
+  - tank-0089
+  - tank-0088
+  - tank-0083
+  - tank-0077
+  - tank-0073
+  - tank-0081
+  - tank-0099
+  - tank-0075
+  addconnection:
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0080
+    type: outbound-full-recon
+  - to: tank-0098
+    type: outbound-full-recon
+  - to: tank-0091
+    type: outbound-full-recon
+- name: tank-0086
+  addnode:
+  - tank-0073
+  - tank-0090
+  - tank-0093
+  - tank-0099
+  - tank-0072
+  - tank-0078
+  - tank-0094
+  - tank-0098
+  addconnection:
+  - to: tank-0083
+    type: outbound-full-recon
+  - to: tank-0091
+    type: outbound-full-recon
+  - to: tank-0085
+    type: outbound-full-recon
+  - to: tank-0088
+    type: outbound-full-recon
+- name: tank-0087
+  addnode:
+  - tank-0092
+  - tank-0082
+  - tank-0074
+  - tank-0080
+  - tank-0075
+  - tank-0091
+  - tank-0086
+  - tank-0096
+  addconnection:
+  - to: tank-0097
+    type: outbound-full-recon
+  - to: tank-0078
+    type: outbound-full-recon
+  - to: tank-0077
+    type: outbound-full-recon
+  - to: tank-0088
+    type: outbound-full-recon
+- name: tank-0088
+  addnode:
+  - tank-0093
+  - tank-0089
+  - tank-0091
+  - tank-0097
+  - tank-0084
+  - tank-0090
+  - tank-0095
+  - tank-0072
+  addconnection:
+  - to: tank-0092
+    type: outbound-full-recon
+  - to: tank-0082
+    type: outbound-full-recon
+  - to: tank-0096
+    type: outbound-full-recon
+  - to: tank-0081
+    type: outbound-full-recon
+- name: tank-0089
+  addnode:
+  - tank-0096
+  - tank-0074
+  - tank-0079
+  - tank-0097
+  - tank-0082
+  - tank-0073
+  - tank-0077
+  - tank-0080
+  addconnection:
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0070
+    type: outbound-full-recon
+  - to: tank-0099
+    type: outbound-full-recon
+  - to: tank-0090
+    type: outbound-full-recon
+- name: tank-0090
+  addnode:
+  - tank-0084
+  - tank-0075
+  - tank-0099
+  - tank-0071
+  - tank-0085
+  - tank-0087
+  - tank-0093
+  - tank-0091
+  addconnection:
+  - to: tank-0092
+    type: outbound-full-recon
+  - to: tank-0094
+    type: outbound-full-recon
+  - to: tank-0082
+    type: outbound-full-recon
+  - to: tank-0072
+    type: outbound-full-recon
+- name: tank-0091
+  addnode:
+  - tank-0093
+  - tank-0083
+  - tank-0072
+  - tank-0081
+  - tank-0098
+  - tank-0095
+  - tank-0092
+  - tank-0097
+  addconnection:
+  - to: tank-0094
+    type: outbound-full-recon
+  - to: tank-0096
+    type: outbound-full-recon
+  - to: tank-0099
+    type: outbound-full-recon
+  - to: tank-0075
+    type: outbound-full-recon
+- name: tank-0092
+  addnode:
+  - tank-0096
+  - tank-0077
+  - tank-0078
+  - tank-0095
+  - tank-0093
+  - tank-0076
+  - tank-0085
+  - tank-0073
+  addconnection:
+  - to: tank-0083
+    type: outbound-full-recon
+  - to: tank-0097
+    type: outbound-full-recon
+  - to: tank-0098
+    type: outbound-full-recon
+  - to: tank-0086
+    type: outbound-full-recon
+- name: tank-0093
+  addnode:
+  - tank-0095
+  - tank-0079
+  - tank-0075
+  - tank-0080
+  - tank-0097
+  - tank-0072
+  - tank-0071
+  - tank-0094
+  addconnection:
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0082
+    type: outbound-full-recon
+  - to: tank-0078
+    type: outbound-full-recon
+  - to: tank-0089
+    type: outbound-full-recon
+- name: tank-0094
+  addnode:
+  - tank-0087
+  - tank-0098
+  - tank-0099
+  - tank-0092
+  - tank-0080
+  - tank-0084
+  - tank-0089
+  - tank-0081
+  addconnection:
+  - to: tank-0085
+    type: outbound-full-recon
+  - to: tank-0083
+    type: outbound-full-recon
+  - to: tank-0073
+    type: outbound-full-recon
+  - to: tank-0088
+    type: outbound-full-recon
+- name: tank-0095
+  addnode:
+  - tank-0086
+  - tank-0081
+  - tank-0094
+  - tank-0096
+  - tank-0090
+  - tank-0089
+  - tank-0072
+  - tank-0082
+  addconnection:
+  - to: tank-0075
+    type: outbound-full-recon
+  - to: tank-0080
+    type: outbound-full-recon
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0084
+    type: outbound-full-recon
+- name: tank-0096
+  addnode:
+  - tank-0072
+  - tank-0090
+  - tank-0085
+  - tank-0082
+  - tank-0070
+  - tank-0099
+  - tank-0074
+  - tank-0097
+  addconnection:
+  - to: tank-0093
+    type: outbound-full-recon
+  - to: tank-0098
+    type: outbound-full-recon
+  - to: tank-0086
+    type: outbound-full-recon
+  - to: tank-0094
+    type: outbound-full-recon
+- name: tank-0097
+  addnode:
+  - tank-0070
+  - tank-0083
+  - tank-0071
+  - tank-0090
+  - tank-0094
+  - tank-0073
+  - tank-0080
+  - tank-0098
+  addconnection:
+  - to: tank-0078
+    type: outbound-full-recon
+  - to: tank-0086
+    type: outbound-full-recon
+  - to: tank-0075
+    type: outbound-full-recon
+  - to: tank-0095
+    type: outbound-full-recon
+- name: tank-0098
+  addnode:
+  - tank-0099
+  - tank-0089
+  - tank-0081
+  - tank-0076
+  - tank-0088
+  - tank-0090
+  - tank-0071
+  - tank-0078
+  addconnection:
+  - to: tank-0095
+    type: outbound-full-recon
+  - to: tank-0082
+    type: outbound-full-recon
+  - to: tank-0087
+    type: outbound-full-recon
+  - to: tank-0070
+    type: outbound-full-recon
+- name: tank-0099
+  addnode:
+  - tank-0082
+  - tank-0088
+  - tank-0080
+  - tank-0093
+  - tank-0073
+  - tank-0095
+  - tank-0072
+  - tank-0075
+  addconnection:
+  - to: tank-0097
+    type: outbound-full-recon
+  - to: tank-0070
+    type: outbound-full-recon
+  - to: tank-0077
+    type: outbound-full-recon
+  - to: tank-0076
+    type: outbound-full-recon
