@@ -1,0 +1,33 @@
+caddy:
+  enabled: false
+fork_observer:
+  configQueryInterval: 5
+  enabled: false
+nodes:
+# Source / miner. Originates transactions and blocks. Normal node.
+- name: tank-0000
+
+# Blackhole. Peers to the source, so it receives everything, but forwards
+# nothing (blackhole=1). Anything reachable only through it stays starved.
+- name: tank-0001
+  addnode:
+  - tank-0000
+  config:
+    blackhole=1
+
+# Victim behind the blackhole. Its only path to the source is via tank-0001,
+# so it should NOT receive the source's transactions.
+- name: tank-0002
+  addnode:
+  - tank-0001
+
+# Control relay. Peers to the source. Normal node (forwards as usual).
+- name: tank-0003
+  addnode:
+  - tank-0000
+
+# Victim behind the control relay. Its only path to the source is via
+# tank-0003, so it SHOULD receive the source's transactions.
+- name: tank-0004
+  addnode:
+  - tank-0003
