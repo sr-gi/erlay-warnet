@@ -1,0 +1,64 @@
+############################################################
+CONNECTION REDUNDANCY: extra full-relay vs extra full-recon
+############################################################
+
+Hypotheses under test
+---------------------
+H1a  Adding N extra outbound-full-relay connections to already well-connected
+     nodes reduces latency at the cost of adding mostly redundant traffic
+H1b  Adding N extra outbound-full-recon connections should keep latency almost
+     constant, but not have a relevant effect on bandwidth
+H2   On those extra recon links the exchanged sketches almost always decode on
+     the first try (sets nearly identical), so extension should be rare
+
+Setup
+-----
+Networks (all 100 nodes, 30 reachable, seed 1337, image
+srgi/bitcoin:99.0.0-erlay-full-recon-d2f8, txreconciliation=1):
+  control : 8 outbound-full-relay per node (addnode baseline only)
+  relay   : baseline + 4 extra outbound-full-relay per node (addconnection)
+  recon   : baseline + 4 extra outbound-full-recon  per node (addconnection)
+The three share an identical base network (addnode), relay and recon only differ
+in the type of the extra (400) edges.
+
+Command per arm:
+```
+  warnet deploy networks/conn-redundancy-<arm>
+  warnet run scenarios/check_net_bandwidth.py --tx_count=50 --n=5
+```
+
+============================================================
+CONTROL  (8 full-relay baseline)
+============================================================
+
+CheckNetBandwidth message count per type: {'tx': 4950, 'getdata': 1209.8, 'inv': 3430, 'addrv2': 282, 'ping': 32.2, 'pong': 32.2}
+CheckNetBandwidth bytes per message type: {'tx': 1509651, 'getdata': 204815.6, 'inv': 1465132, 'addrv2': 16728, 'ping': 933.8, 'pong': 933.8}
+CheckNetBandwidth INV entry count: 38602
+CheckNetBandwidth approx propagation time: 5.325791s
+
+============================================================
++4 FULL-RELAY  (baseline + 4 outbound-full-relay)
+============================================================
+
+CheckNetBandwidth message count per type: {'tx': 4950, 'getdata': 1422.4, 'inv': 4426, 'addrv2': 326.8, 'ping': 161.2, 'pong': 161.2}
+CheckNetBandwidth bytes per message type: {'tx': 1509750, 'getdata': 209492.8, 'inv': 2086847.2, 'addrv2': 15790.6, 'ping': 4674.8, 'pong': 4674.8}
+CheckNetBandwidth INV entry count: 55263.2
+CheckNetBandwidth approx propagation time: 3.5426414s
+
+============================================================
++4 FULL-RECON  (baseline + 4 outbound-full-recon)
+============================================================
+
+CheckNetBandwidth message count per type: {'reqtxrcncl': 109, 'ping': 24.8, 'getdata': 1266.8, 'inv': 3434.4, 'addrv2': 381, 'reconcildiff': 109.2, 'pong': 24.8, 'tx': 4950, 'sketch': 130.8, 'reqsketchext': 19.8}
+CheckNetBandwidth bytes per message type: {'reqtxrcncl': 4033, 'ping': 719.2, 'getdata': 206069.6, 'inv': 1494741.6, 'addrv2': 18408, 'reconcildiff': 6678.8, 'pong': 719.2, 'tx': 1509730.2, 'sketch': 29123.2, 'reqsketchext': 653.4}
+CheckNetBandwidth INV entry count: 39421.8
+CheckNetBandwidth approx propagation time: 5.652434s
+
+============================================================
+RESULTS
+============================================================
+
+H1a  Hypothesis confirmed: ~43% increase in redundant INV traffic, ~33% latency reduction.
+H1b  Hypothesis confirmed: latency ~6% slower, ~2% traffic increase (reconciliation overhead)
+H2   Reconciliation params may need tweaking: ~82% of reconciliations without extensions
+

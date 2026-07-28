@@ -1,0 +1,14 @@
+chain: regtest
+collectLogs: false
+metricsExport: false
+resources: {}
+image:
+  repository: srgi/bitcoin
+  pullPolicy: IfNotPresent
+  tag: '99.0.0-erlay-full-recon-d2f8'
+defaultConfig: |
+  debug=net
+  debug=mempool
+  debug=txreconciliation
+  noconnect=1
+  txreconciliation=1
